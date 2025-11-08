@@ -183,3 +183,23 @@ body, h1, h2, p, a {
  .low-bar a:hover {
    color: #00bcd4; 
  }
+
+.event_t h1 {
+	text-align: center;
+}
+
+.features_2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.feature_2 {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 5rem;
+  flex: 1 1 300px;
+  text-align: center;
+}
