@@ -10,4 +10,15 @@
   z-index: 1000;
 }
 
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
 
+ .top-bar a:hover {
+   color: #00bcd4; 
+}
