@@ -186,11 +186,17 @@ body, h1, h2, p, a {
 }
 
 .real {
-	text-align: left;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: left;
+  	align-items: left;
 }
 
 .personal {
-	text-align: right;
+	display: flex;
+  	flex-direction: column;
+  	justify-content: right;
+  	align-items: right;
 }
 /* the end of index.html code */
 
