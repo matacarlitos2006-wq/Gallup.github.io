@@ -134,3 +134,37 @@ body, h1, h2, p, a {
 .personal {
 	text-align: right;
 }
+
+.herb {
+  	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyO5qZwGZDXFyyageWPYDrJ6LTbex9_xq6g&s");
+  	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5); 
+  	background-blend-mode: multiply; 
+  	color: red;
+  	text-align: center;
+  	padding: 6rem 4rem;
+}
+
+.herb h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.herb p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.top_bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+ .top_bar a:hover {
+   color: #00bcd4; 
