@@ -1,1 +1,143 @@
+body, h1, h2, p, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: inherit;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  color: #333;
+}
+
+.hero {
+  	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyO5qZwGZDXFyyageWPYDrJ6LTbex9_xq6g&s");
+  	background-position: center;
+  	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: rgba(0, 0, 0, 0.5); 
+  	background-blend-mode: multiply; 
+  	color: red;
+  	text-align: center;
+  	padding: 6rem 4rem;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  display: inline-block;
+  background: #f04e23;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #d03a0f;
+}
+
+.about_t h1 {
+	text-align: center;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.feature {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 5rem;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.service h1 {
+	text-align: center;
+}
+
+.service_f {
+	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	padding: 2rem;
+  	gap: 2rem;
+}
+
+.service_feature {
+	background: #f9f9f9;
+  	border: 1px solid #ddd;
+  	padding: 5rem;
+  	flex: 1 1 300px;
+  	text-align: center;
+}
+.footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background: #f1f1f1;
+}
+
+.top-bar {
+  background-color: #333; 
+  color: white;
+  text-align: center; 
+  padding: 15px 0; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.top-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+ .top-bar a:hover {
+   color: #00bcd4; 
+}
+.Contact_pl {
+  background: #000;
+  color: blue;
+  text-align: center;
+  padding: 4rem 2rem;
+}
+.Contact_pl h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.Contact_pl p {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.real {
+	text-align: left;
+}
+
+.personal {
+	text-align: right;
+}
