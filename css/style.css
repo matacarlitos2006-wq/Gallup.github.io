@@ -79,12 +79,14 @@ body, h1, h2, p, a {
   	padding: 5rem;
   	flex: 1 1 300px;
   	text-align: center;
-}
-.service_feature img {
-  max-width: 100%; 
-  height: auto; 
-  display: block; 
-  margin-bottom: 15px; 
+.library-image {
+  	width: 100%; 
+  	max-width: 500px; 
+  	height: auto; 
+  	border-radius: 8px; 
+  	margin: 20px 0; 
+  	display: block; 
+  	object-fit: cover; 
 }
 .footer {
   text-align: center;
