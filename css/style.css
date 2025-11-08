@@ -80,6 +80,12 @@ body, h1, h2, p, a {
   	flex: 1 1 300px;
   	text-align: center;
 }
+.service_feature img {
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin-bottom: 15px; 
+}
 .footer {
   text-align: center;
   padding: 2rem;
