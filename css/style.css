@@ -136,3 +136,27 @@ body, h1, h2, p, a {
 }
 
 /* This is the cat/Event.css side */
+
+.top-bar2 {
+  background-color: #333; 
+  color: white;
+  text-align: center; 
+  padding: 15px 0; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.top-bar2 a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+ .top-bar2 a:hover {
+   color: #00bcd4; 
+ }
