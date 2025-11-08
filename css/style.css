@@ -157,6 +157,18 @@ body, h1, h2, p, a {
   margin-bottom: 2rem;
 }
 
+.low-bar {
+  background-color: #333; 
+  color: white;
+  text-align: center; 
+  padding: 15px 0; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
 .low-bar a {
   color: white;
   text-decoration: none;
