@@ -1,3 +1,4 @@
+/* index.html code */
 body, h1, h2, p, a {
   margin: 0;
   padding: 0;
@@ -177,6 +178,7 @@ body, h1, h2, p, a {
 .personal {
 	text-align: right;
 }
+/* the end of index.html code */
 
 /* Event code */
 
@@ -245,4 +247,11 @@ body, h1, h2, p, a {
   padding: 5rem;
   flex: 1 1 300px;
   text-align: center;
+}
+
+.footer-event {
+  	text-align: center;
+  	padding: 2rem;
+  	font-size: 0.9rem;
+  	background: #f1f1f1;
 }
