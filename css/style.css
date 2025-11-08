@@ -144,7 +144,7 @@ body, h1, h2, p, a {
   	background-blend-mode: multiply; 
   	color: red;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 8rem 6rem;
 }
 
 .herb h1 {
@@ -180,3 +180,4 @@ body, h1, h2, p, a {
 
  .low-bar a:hover {
    color: #00bcd4; 
+ }
