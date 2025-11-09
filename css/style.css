@@ -269,6 +269,14 @@ body, h1, h2, p, a {
   text-align: center;
 }
 
+.feature_t2 {
+  background-image; url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.simonandschuster.com%2Fbooks%2FTruck-or-Treat%2FHannah-Eliot%2F9781665915977&psig=AOvVaw18iisUkECTfzip22fCSWqE&ust=1762750015571000&source=images&cd=vfe&opi=89978449&ved=0CBYQjRxqFwoTCIiF5Nql5JADFQAAAAAdAAAAABAE") 
+  border: 1px solid #ddd;
+  padding: 5rem;
+  flex: 1 1 300px;
+  text-align: center;
+}
+
 .footer-event {
   	text-align: center;
   	padding: 2rem;
