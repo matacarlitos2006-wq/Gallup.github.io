@@ -281,7 +281,7 @@ body, h1, h2, p, a {
   	display: flex;
   	flex-wrap: wrap;
   	max-width: 1200px;
-  	background-color: #f4f9ef;
+  	background-color: #e1f50a;
   	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   	border-radius: 16px;
   	overflow: hidden;
@@ -306,7 +306,7 @@ body, h1, h2, p, a {
 
 .profile-text h1 {
   	font-size: 2.5rem;
-  	color: #5f7d47;
+  	color: black;
   	margin-bottom: 20px;
   	font-weight: 700;
 }
