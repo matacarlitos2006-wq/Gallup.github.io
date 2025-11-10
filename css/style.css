@@ -15,7 +15,7 @@ body, h1, h2, p, a {
   	background-blend-mode: multiply; 
   	color: red;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 10rem 10rem;
 }
 
 .hero h1 {
