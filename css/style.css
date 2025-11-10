@@ -299,3 +299,28 @@ body, h1, h2, p, a {
 /* End of Event.html code */
 
 /* Start of History.html code */
+
+.History-bar {
+  background-color: #333; 
+  color: white;
+  text-align: center; 
+  padding: 15px 0; 
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.History-bar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+ .History-bar a:hover {
+   color: #00bcd4; 
+ }
