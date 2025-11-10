@@ -346,3 +346,19 @@ body, h1, h2, p, a {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
+
+.History-f {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.History-fs {
+  background: #f0f013;
+  border: 1px solid #ddd;
+  padding: 5rem;
+  flex: 1 1 300px;
+  text-align: center;
+}
