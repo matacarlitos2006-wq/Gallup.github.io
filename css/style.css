@@ -364,7 +364,7 @@ body, h1, h2, p, a {
 }
 
 .History_info {
-	display: flex;
+	display: inline;
 	flex-wrap: wrap;
 	justify-content: center;
 }
