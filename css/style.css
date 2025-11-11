@@ -390,8 +390,8 @@ body, h1, h2, p, a {
 	text-align: center;
 }
 
-.info-hist h2 {
-	text-align: right;
+.info-hist h2, p {
+	text-align: center;
 }
 
 .History-footer {
