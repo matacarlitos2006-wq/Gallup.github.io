@@ -362,3 +362,14 @@ body, h1, h2, p, a {
   flex: 1 1 300px;
   text-align: center;
 }
+
+.History_info {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.history-pic img {
+	width: 5rem;
+	height: 5rem
+}
