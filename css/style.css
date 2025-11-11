@@ -379,5 +379,7 @@ body, h1, h2, p, a {
 }
 
 .info-hist {
+	padding: 5rem;
+  	flex: 1 1 300px;
 	text-align: center;
 }
