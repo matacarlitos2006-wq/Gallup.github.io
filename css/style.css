@@ -374,6 +374,7 @@ body {
 .History-info {
 	border: 1px solid #ddd;
 	padding: 2rem;
+	background: yellow;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
