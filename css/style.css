@@ -6,6 +6,10 @@ body, h1, h2, p, a {
   color: inherit;
 }
 
+body {
+	background-color: red; 
+}
+
 .hero {
   	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyO5qZwGZDXFyyageWPYDrJ6LTbex9_xq6g&s");
   	background-position: center;
