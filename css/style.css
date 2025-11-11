@@ -20,13 +20,11 @@ body, h1, h2, p, a {
 }
 
 .hero h1 {
-	display: flex;
   	font-size: 3rem;
   	margin-bottom: 1rem;
 }
 
 .hero p {
-	display: flex;
   	font-size: 1.5rem;
   	margin-bottom: 2rem;
 }
