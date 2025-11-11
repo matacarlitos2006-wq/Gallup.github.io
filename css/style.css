@@ -363,7 +363,7 @@ body, h1, h2, p, a {
   text-align: center;
 }
 
-.History_info {
+.History-info {
 	display: inline;
 	flex-wrap: wrap;
 	justify-content: center;
