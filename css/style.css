@@ -364,9 +364,11 @@ body, h1, h2, p, a {
 }
 
 .History-info {
-	display: inline;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
+	padding: 2rem;
+  	gap: 2rem;
 }
 
 .history-pic img {
