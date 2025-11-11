@@ -372,7 +372,7 @@ body {
 }
 
 .History-info {
-	border: 1px solid #ddd;
+	border: 10px solid #ddd;
 	padding: 2rem;
 	background: yellow;
 	display: flex;
