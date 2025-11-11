@@ -383,3 +383,9 @@ body, h1, h2, p, a {
   	flex: 1 1 300px;
 	text-align: center;
 }
+.History-footer {
+  	text-align: center;
+  	padding: 2rem;
+  	font-size: 0.9rem;
+  	background: #f1f1f1;
+}
