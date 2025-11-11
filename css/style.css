@@ -368,10 +368,11 @@ body, h1, h2, p, a {
 }
 
 .History-info {
+	border: 1px solid #ddd;
+	padding: 2rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 2rem;
   	gap: 2rem;
 }
 
