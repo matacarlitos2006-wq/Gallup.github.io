@@ -235,8 +235,8 @@ body {
 #searchResults {
   	padding: 15px 20px;
   	background-color: #f9f9f9;
-  	display: none; /* hidden until used */
-  	margin-top: 70px; /* offset for fixed top-bar */
+  	display: none; 
+  	margin-top: 70px; 
 }
 
 .Contact_pl {
