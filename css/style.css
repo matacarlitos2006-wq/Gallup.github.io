@@ -170,29 +170,22 @@ body {
 }
 
 .top-bar {
-  	position: fixed;
+	
+  	background-color: #333; 
+  	color: white;
+  	text-align: center; 
+  	padding: 15px 0; 
+  	position: fixed; 
   	top: 0;
   	left: 0;
   	width: 100%;
-  	background-color: #333; 
-  	color: white;
-  	padding: 15px 0;
-  	z-index: 1;
-  	display: flex;
-  	justify-content: center;
-  	align-items: center;
-  	box-sizing: border-box;
+  	z-index: 1000;
 }
-
-.nav-links {
-  	display: flex;
-  	gap: 20px;
-}
-
 
 .top-bar a {
   	color: white;
   	text-decoration: none;
+  	margin: 0 15px;
   	font-weight: bold;
   	font-size: 16px;
   	transition: color 0.3s;
