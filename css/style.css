@@ -197,13 +197,13 @@ body {
 
 
 .search-container {
-	margin: 0 15px;
   	position: fixed;          
   	display: flex;
   	align-items: center;
 }
 
 .search-container input {
+	margin: 0 15px;
   	padding: 6px 10px;
   	border: none;
   	border-radius: 4px;
