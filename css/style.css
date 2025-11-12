@@ -27,6 +27,7 @@ body {
   	padding: 1rem;
   	font-size: 3rem;
   	margin-bottom: 1rem;
+	background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .hero p {
@@ -34,6 +35,7 @@ body {
   	padding: 1rem;
   	font-size: 1.5rem;
   	margin-bottom: 2rem;
+	background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .cta-button {
