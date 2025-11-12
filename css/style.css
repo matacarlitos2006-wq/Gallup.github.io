@@ -200,7 +200,7 @@ body {
   	position: fixed;   
   	right: 15px;          
   	display: flex;
-  	align-items: center;
+  	align-items: right;
 	top: 0;
   	left: 0;
   	width: 100%;
