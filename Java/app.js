@@ -7,94 +7,76 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
 const searchData = [
   {
     title: "Events",
-    description: "Learn more about community events happening in Gallup.",
-    link: "../cat/Event.html"
+    keywords: ["event", "events", "celebration"],
+    link: "./cat/Event.html"
   },
   {
     title: "History of Gallup",
-    description: "Discover how Gallup, New Mexico was founded and evolved.",
-    link: "../cat/History.html"
+    keywords: ["history", "gallup history"],
+    link: "./cat/History.html"
   },
   {
     title: "Public Library",
-    description: "Find information about the local public library and its services.",
+    keywords: ["library", "books"],
     link: "#services"
   },
   {
     title: "Educational Services",
-    description: "Explore child care and school services available in Gallup.",
+    keywords: ["education", "school", "child care"],
     link: "#services"
   },
   {
     title: "Transportation",
-    description: "Learn about transportation assistance programs in Gallup.",
+    keywords: ["transport", "bus", "travel"],
     link: "#services"
   },
   {
     title: "Contact Us",
-    description: "Get in touch with our community team.",
+    keywords: ["contact", "email", "phone"],
     link: "#contact"
   },
   {
-    title: "Home",
-    description: "Return to the home page.",
-    link: "#home"
+    title: "About Us",
+    keywords: ["about", "community"],
+    link: "#about"
   },
   {
-    title: "About Us",
-    description: "Read more about our Gallup community.",
-    link: "#about"
+    title: "Home",
+    keywords: ["home", "welcome"],
+    link: "#home"
   }
 ];
 
 
-document.getElementById("searchBtn").addEventListener("click", performSearch);
-
+document.getElementById("searchBtn").addEventListener("click", handleSearch);
 document.getElementById("searchInput").addEventListener("keypress", function (e) {
-  if (e.key === "Enter") {
-    performSearch();
-  }
+  if (e.key === "Enter") handleSearch();
 });
 
-function performSearch() {
+function handleSearch() {
   const query = document.getElementById("searchInput").value.toLowerCase().trim();
-  const resultsDiv = document.getElementById("searchResults");
+  if (!query) return;
 
-  if (!query) {
-    resultsDiv.style.display = "none";
-    resultsDiv.innerHTML = "";
-    return;
-  }
-
-  const results = searchData.filter(item =>
+  const result = searchData.find(item =>
     item.title.toLowerCase().includes(query) ||
-    item.description.toLowerCase().includes(query)
+    item.keywords.some(keyword => keyword.includes(query))
   );
 
-  
-  const sections = document.querySelectorAll("h1, h2, p, a");
-  let results = [];
-
-  sections.forEach((section) => {
-    if (section.textContent.toLowerCase().includes(query)) {
-      results.push(section.textContent);
+  if (result) {
+    if (result.link.startsWith("#")) {
+      const target = document.querySelector(result.link);
+      if (target) {
+        window.scrollTo({
+          top: target.offsetTop - 70, // offset for fixed top-bar
+          behavior: "smooth"
+        });
+      }
     }
-  });
-
-  
-  resultsDiv.style.display = "block";
-  if (results.length > 0) {
-    resultsDiv.innerHTML = `<h3>Search Results for "${query}":</h3><ul>` +
-      results
-        .map(
-          item =>
-            `<li>
-              <a href="${item.link}"><strong>${item.title}</strong></a> – ${item.description}
-            </li>`
-        )
-        .join("") +
-      "</ul>";
+    else {
+      window.location.href = result.link;
+    }
   } else {
-    resultsDiv.innerHTML = `<p>No results found for "${query}".</p>`;
+    alert(`No results found for "${query}".`);
   }
+}
 }
