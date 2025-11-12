@@ -67,7 +67,7 @@ function handleSearch() {
       const target = document.querySelector(result.link);
       if (target) {
         window.scrollTo({
-          top: target.offsetTop - 70, // offset for fixed top-bar
+          top: target.offsetTop - 70, 
           behavior: "smooth"
         });
       }
