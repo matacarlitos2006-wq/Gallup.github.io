@@ -8,12 +8,12 @@ const searchData = [
   {
     title: "Events",
     description: "Learn more about community events happening in Gallup.",
-    link: "./cat/Event.html"
+    link: "../cat/Event.html"
   },
   {
     title: "History of Gallup",
     description: "Discover how Gallup, New Mexico was founded and evolved.",
-    link: "./cat/History.html"
+    link: "../cat/History.html"
   },
   {
     title: "Public Library",
