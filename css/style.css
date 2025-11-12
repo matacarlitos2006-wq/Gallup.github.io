@@ -170,61 +170,75 @@ body {
 }
 
 .top-bar {
-  background-color: #333; 
-  color: white;
-  text-align: center; 
-  padding: 15px 0; 
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	background-color: #333; 
+  	color: white;
+  	padding: 15px 0;
+  	z-index: 1000;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	box-sizing: border-box;
 }
+
+.nav-links {
+  	display: flex;
+  	gap: 20px;
+}
+
 
 .top-bar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
+  	color: white;
+  	text-decoration: none;
+  	font-weight: bold;
+  	font-size: 16px;
+  	transition: color 0.3s;
 }
 
- .top-bar a:hover {
-   color: #00bcd4; 
+.top-bar a:hover {
+  	color: #00bcd4; 
 }
+
 
 .search-container {
+  	position: absolute;   
+  	right: 20px;          
   	display: flex;
   	align-items: center;
 }
 
 .search-container input {
-  	padding: 5px 10px;
+  	padding: 6px 10px;
   	border: none;
   	border-radius: 4px;
   	outline: none;
 }
 
 .search-container button {
-  	margin-left: 5px;
+  	margin-left: 8px;
   	padding: 6px 10px;
   	border: none;
-  	background-color: #555;
+  	background-color: #00bcd4;
   	color: white;
   	border-radius: 4px;
   	cursor: pointer;
+  	transition: background-color 0.3s;
 }
 
 .search-container button:hover {
-  	background-color: #777;
+  	background-color: #0097a7;
 }
 
 #searchResults {
   	padding: 15px 20px;
   	background-color: #f9f9f9;
   	display: none; /* hidden until used */
+  	margin-top: 70px; /* offset for fixed top-bar */
 }
+
 .Contact_pl {
   background: #000;
   color: blue;
