@@ -197,10 +197,13 @@ body {
 
 
 .search-container {
-  	position: absolute;   
+  	position: fixed;   
   	right: 15px;          
   	display: flex;
   	align-items: center;
+	top: 0;
+  	left: 0;
+  	width: 100%;
 }
 
 .search-container input {
