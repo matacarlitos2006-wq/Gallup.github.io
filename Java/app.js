@@ -1,5 +1,9 @@
-const btn = document.querySelector('button');
+document.getElementById("myForm").addEventListener("submit", function(event) {
+  event.preventDefault(); 
 
-btn.onclick = () => {
-  alert('you submission has been sent')
-}
+  document.getElementById("message").textContent = "Your text has been submitted";
+
+  setTimeout(function() {
+    location.reload();
+  }, 2000);
+});
