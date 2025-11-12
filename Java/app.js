@@ -79,4 +79,3 @@ function handleSearch() {
     alert(`No results found for "${query}".`);
   }
 }
-}
