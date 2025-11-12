@@ -200,7 +200,7 @@ body {
   	position: fixed;   
   	right: 15px;          
   	display: flex;
-  	align-items: right;
+  	align-items: center;
 }
 
 .search-container input {
