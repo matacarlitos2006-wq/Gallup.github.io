@@ -4,4 +4,3 @@ document.getElementById("myForm").addEventListener("submit", function(event) {
   alert("Your text has been submitted");
   
   location.reload();
-});
