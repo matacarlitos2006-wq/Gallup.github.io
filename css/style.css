@@ -335,6 +335,31 @@ body {
   	display: block;
 }
 
+.Event-info {
+	border: 10px solid #ddd;
+	padding: 2rem;
+	background: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  	gap: 2rem;
+}
+
+.Event-pic img {
+	display: flex;
+	width: 50%;
+	height: 50%;
+	object-fit: cover;
+  	display: block;
+}
+
+.info-event {
+	display: block;
+	padding: 5rem;
+  	flex: 1 1 300px;
+	text-align: center;
+}
+
 .footer-event {
   	text-align: center;
   	padding: 2rem;
