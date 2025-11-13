@@ -335,6 +335,10 @@ body {
   	display: block;
 }
 
+.gallup-c h1 {
+	text-align: center;
+}
+
 .Event-section {
 	border: 10px solid #ddd;
 	padding: 2rem;
