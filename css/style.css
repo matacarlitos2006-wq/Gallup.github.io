@@ -197,8 +197,7 @@ body {
 
 
 .search-container {
-  	position: fixed;          
-  	display: flex;
+  	position: fixed;
   	align-items: center;
 	right: 15px;
 }
