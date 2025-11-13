@@ -313,19 +313,19 @@ body {
 }
 
 .features_t {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem;
-  gap: 2rem;
+  	display: flex;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	padding: 2rem;
+  	gap: 2rem;
 }
 
 .feature_t {
-  background: #f9f9f9;
-  border: 1px solid #ddd;
-  padding: 5rem;
-  flex: 1 1 300px;
-  text-align: center;
+  	background: yellow;
+  	border: 1px solid #ddd;
+  	padding: 5rem;
+  	flex: 1 1 300px;
+  	text-align: center;
 }
 
 .feature_t img {
