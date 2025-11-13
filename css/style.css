@@ -200,7 +200,7 @@ body {
   	position: fixed;          
   	display: flex;
   	align-items: center;
-	margin: 0 15px;
+	right: 15px;
 }
 
 .search-container input {
@@ -212,7 +212,7 @@ body {
 
 .search-container button {
   	margin-left: 8px;
-  	padding: 6px 10px;
+  	padding: 10px 10px;
   	border: none;
   	background-color: #00bcd4;
   	color: white;
