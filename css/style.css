@@ -11,7 +11,7 @@ body {
 }
 
 .hero {
-  	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLyO5qZwGZDXFyyageWPYDrJ6LTbex9_xq6g&s");
+  	background-image: url("../images/Gallup-background.jpg");
   	background-position: center;
   	background-repeat: no-repeat;
 	background-size: cover;
