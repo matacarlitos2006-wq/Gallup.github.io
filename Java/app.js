@@ -18,12 +18,12 @@ const searchData = [
   {
     title: "Public Library",
     keywords: ["library", "books"],
-    link: "#services"
+    link: "./Services/Library.html"
   },
   {
     title: "Educational Services",
     keywords: ["education", "school", "child care"],
-    link: "#services"
+    link: "./Services/Education.html"
   },
   {
     title: "Transportation",
