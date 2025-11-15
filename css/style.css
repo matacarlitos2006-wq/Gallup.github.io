@@ -565,6 +565,7 @@ body {
 
 /* End of Library.html */
 
+/* start of Education.html */
 .education-bar {
   background-color: #333; 
   color: white;
@@ -611,3 +612,12 @@ body {
   font-size: 1.5rem;
   margin-bottom: 2rem;
 }
+
+.education-footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background: #f1f1f1;
+}
+
+/* end of education.html */
