@@ -358,7 +358,7 @@ body {
 }
 
 .infomation-event {
-	border: 1px solid #ddd;
+	border: 6px solid #ddd;
 	display: block;
 	padding: 5rem;
   	flex: 1 1 300px;
