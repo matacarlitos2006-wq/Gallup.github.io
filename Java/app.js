@@ -27,12 +27,12 @@ const searchData = [
   },
   {
     title: "Transportation",
-    keywords: ["transport", "bus", "travel"],
-    link: "#services"
+    keywords: ["transport", "bus", "travel", "airplane"],
+    link: "./Services/Transportation.html"
   },
   {
     title: "Contact Us",
-    keywords: ["contact", "email", "phone"],
+    keywords: ["contact", "email", "phone", "address"],
     link: "#contact"
   },
   {
