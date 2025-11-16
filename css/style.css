@@ -264,7 +264,7 @@ body {
 .Police-info {
 	border: 0px solid red;
 	padding: 2rem;
-	background: yellow;
+	background: red;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
