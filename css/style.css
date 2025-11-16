@@ -262,7 +262,7 @@ body {
 }
 
 .Police-info {
-	border: 0px solid red;
+	border: 10px solid red;
 	padding: 2rem;
 	background: red;
 	display: flex;
