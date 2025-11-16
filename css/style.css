@@ -254,6 +254,10 @@ body {
   	align-items: left;
 }
 
+.gallup-g {
+	text-align: center;
+}
+
 .personal {
 	display: flex;
   	flex-direction: column;
