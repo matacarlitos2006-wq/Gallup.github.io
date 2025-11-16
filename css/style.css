@@ -262,7 +262,7 @@ body {
 }
 
 .Police-info {
-	border: 10px solid red;
+	border: 0px solid red;
 	padding: 2rem;
 	background: yellow;
 	display: flex;
@@ -279,7 +279,7 @@ body {
   	display: block;
 }
 
-.Police-Information {
+.Police-Infomation {
 	display: block;
 	padding: 5rem;
   	flex: 1 1 300px;
