@@ -833,28 +833,28 @@ body {
 /* start of reference.html */
 
 .reference-bar {
-  background-color: #333; 
-  color: white;
-  text-align: center; 
-  padding: 15px 0; 
-  position: fixed; 
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
+  	background-color: #333; 
+  	color: white;
+  	text-align: center; 
+  	padding: 15px 0; 
+  	position: fixed; 
+  	top: 0;
+  	left: 0;
+  	width: 100%;
+  	z-index: 1000;
 }
 
 .reference-bar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
+  	color: white;
+  	text-decoration: none;
+  	margin: 0 15px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	transition: color 0.3s;
 }
 
  .reference-bar a:hover {
-   color: #00bcd4; 
+   	color: #00bcd4; 
  }
 
 .reference-header {
@@ -888,8 +888,8 @@ body {
 }
 
 .Reference-footer {
-  	text-align: center;
-  	padding: 2rem;
-  	font-size: 0.9rem;
-  	background: #f1f1f1;
+	text-align: center;
+	padding: 2rem;
+	font-size: 0.9rem;
+	background: #f1f1f1;
 }
