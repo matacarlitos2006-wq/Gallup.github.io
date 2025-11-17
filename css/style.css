@@ -37,7 +37,7 @@ body {
   	font-size: 1.5rem;
   	margin-bottom: 2rem;
 	background-color: rgba(0, 0, 0, 0.5); 
-	font: italic small-caps bold 30px/40px Georgia, serif;
+	font: italic small-caps bold 20px/30px Georgia, serif;
 }
 
 .cta-button {
@@ -48,7 +48,7 @@ body {
   	padding: 1rem 2rem;
   	border-radius: 4px;
   	transition: background 0.3s ease;
-	font: italic small-caps bold 20px/30px Georgia, serif;
+	font: italic small-caps bold 15px/20px Georgia, serif;
 }
 
 .cta-button:hover {
