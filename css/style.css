@@ -6,6 +6,10 @@ body, h1, h2, p, a {
   	color: inherit;
 }
 
+h1, h2, {
+	font: italic small-caps bold 20px/35px Georgia, serif;
+}
+
 body {
 	background-color: red; 
 }
