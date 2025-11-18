@@ -369,12 +369,13 @@ body {
 }
 
 .low-bar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
+  	color: white;
+  	text-decoration: none;
+  	margin: 0 15px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	transition: color 0.3s;
+	font: italic small-caps bold 15px/20px Georgia, serif;
 }
 
  .low-bar a:hover {
@@ -572,6 +573,7 @@ body {
   	font-weight: bold;
   	font-size: 16px;
   	transition: color 0.3s;
+	font: italic small-caps bold 15px/20px Georgia, serif;
 }
 
 .library-bar a:hover {
@@ -596,6 +598,7 @@ body {
   	font-size: 3rem;
   	margin-bottom: 1rem;
 	background-color: rgba(0, 0, 0, 0.5); 
+	font: italic small-caps bold 40px/50px Georgia, serif;
 }
 
 .header-library p {
@@ -604,6 +607,7 @@ body {
   	font-size: 1.5rem;
   	margin-bottom: 2rem;
 	background-color: rgba(0, 0, 0, 0.5); 
+	font: italic small-caps bold 20px/30px Georgia, serif;
 }
 
 .library-info {
@@ -654,12 +658,13 @@ body {
 }
 
 .education-bar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
+  	color: white;
+  	text-decoration: none;
+  	margin: 0 15px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	transition: color 0.3s;
+	font: italic small-caps bold 15px/20px Georgia, serif;
 }
 
  .education-bar a:hover {
@@ -679,13 +684,19 @@ body {
 }
 
 .header-education h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+	border: 1px solid #ddd;
+  	font-size: 3rem;
+  	margin-bottom: 1rem;
+	background-color: rgba(0, 0, 0, 0.5); 
+	font: italic small-caps bold 40px/50px Georgia, serif;
 }
 
 .header-education p {
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+	border: 1px solid #ddd;
+  	font-size: 1.5rem;
+  	margin-bottom: 2rem;
+	background-color: rgba(0, 0, 0, 0.5); 
+	font: italic small-caps bold 20px/30px Georgia, serif;
 }
 
 .Elementry {
@@ -769,12 +780,13 @@ body {
 }
 
 .Transportation-bar a {
-  color: white;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-  font-size: 16px;
-  transition: color 0.3s;
+  	color: white;
+  	text-decoration: none;
+  	margin: 0 15px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	transition: color 0.3s;
+	font: italic small-caps bold 15px/20px Georgia, serif;
 }
 
  .Transportation-bar a:hover {
@@ -798,6 +810,7 @@ body {
   	font-size: 3rem;
   	margin-bottom: 1rem;
 	background-color: rgba(0, 0, 0, 0.5);
+	font: italic small-caps bold 40px/50px Georgia, serif;
 }
 
 .header-Transportation p {
@@ -805,6 +818,7 @@ body {
   	font-size: 1.5rem;
   	margin-bottom: 2rem;
 	background-color: rgba(0, 0, 0, 0.5);
+	font: italic small-caps bold 20px/30px Georgia, serif;
 }
 
 .Transportation-info {
@@ -860,6 +874,7 @@ body {
   	font-weight: bold;
   	font-size: 16px;
   	transition: color 0.3s;
+	font: italic small-caps bold 15px/20px Georgia, serif;
 }
 
  .reference-bar a:hover {
