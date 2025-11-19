@@ -951,6 +951,23 @@ body {
   	text-align: center;
 }
 
+.part2-f {
+  	display: flex;
+	flex-wrap: wrap;
+  	justify-content: center;
+  	padding: 2rem;
+  	gap: 2rem;
+}
+
+.part2-fs {
+	border-radius: 20px;
+  	background: #f0f013;
+  	border: 1px solid #ddd;
+  	padding: 5rem;
+  	flex: 1 1 300px;
+  	text-align: center;
+}
+
 .Reference-footer {
 	text-align: center;
 	padding: 2rem;
