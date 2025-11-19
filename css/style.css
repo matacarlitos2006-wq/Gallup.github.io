@@ -4,7 +4,6 @@ body, h1, h2, p, a {
   	padding: 0;
   	text-decoration: none;
   	color: inherit;
-	font: italic small-caps bold 20px/25px Georgia, serif;
 }
 
 body {
