@@ -68,11 +68,12 @@ body {
 }
 
 .feature {
-  background: #F5B700;
-  border: 1px solid #ddd;
-  padding: 5rem;
-  flex: 1 1 300px;
-  text-align: center;
+	border-radius: 20px;
+  	background: #F5B700;
+  	border: 1px solid #ddd;
+  	padding: 5rem;
+  	flex: 1 1 300px;
+  	text-align: center;
 }
 
 .Event-button {
@@ -116,6 +117,7 @@ body {
 }
 
 .service_feature {
+	border-radius: 20px;
 	background: #f0f013;
   	border: 1px solid #ddd;
   	padding: 5rem;
