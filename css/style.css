@@ -915,6 +915,31 @@ body {
 	font: italic small-caps bold 20px/30px Georgia, serif;
 }
 
+.Reference-info {
+	border: 10px solid #ddd;
+	padding: 2rem;
+	background: yellow;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  	gap: 2rem;
+}
+
+.Reference-pic img {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  	display: block;
+}
+
+.info-Reference {
+	display: block;
+	padding: 5rem;
+  	flex: 1 1 300px;
+	text-align: center;
+}
+
 .reference-f {
   	display: flex;
 	flex-wrap: wrap;
