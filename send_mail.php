@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $phonenumber = htmlspecialchars($_POST['Phone Number'])
     $message = htmlspecialchars($_POST['message']);
 
-    $to = "matacarlitos2006@gmail.com";
+    $to = "cmata1@unm.edu";
     $subject = "New Contact Form Submission";
 
     $body = "Name: $name\nLastName: $lastname\nEmail: $email\nPhoneNumber: $phonenumber\nMessage:\n$message";
