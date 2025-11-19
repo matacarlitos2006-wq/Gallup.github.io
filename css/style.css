@@ -21,6 +21,7 @@ body {
 }
 
 .hero h1 {
+	border-radius: 10px;
 	border: 1px solid #ddd;
   	padding: 1rem;
   	font-size: 3rem;
@@ -30,6 +31,7 @@ body {
 }
 
 .hero p {
+	border-radius: 10px;
 	border: 1px solid #ddd;
   	padding: 1rem;
   	font-size: 1.5rem;
