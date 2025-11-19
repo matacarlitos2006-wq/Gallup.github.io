@@ -918,7 +918,7 @@ body {
 }
 
 .Reference-info {
-	border: 10px solid #ddd;
+	border: 10px solid red;
 	padding: 2rem;
 	background: yellow;
 	display: flex;
