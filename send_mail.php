@@ -1,13 +1,15 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $name    = htmlspecialchars($_POST['name']);
-    $email   = htmlspecialchars($_POST['email']);
+    $name    = htmlspecialchars($_POST['fname']);
+    $lastname = htmlspecialchars($_POST['lname'])
+    $email   = htmlspecialchars($_POST['Email']);
+    $phonenumber = htmlspecialchars($_POST['Phone Number'])
     $message = htmlspecialchars($_POST['message']);
 
     $to = "matacarlitos2006@gmail.com";
     $subject = "New Contact Form Submission";
 
-    $body = "Name: $name\nEmail: $email\nMessage:\n$message";
+    $body = "Name: $name\nLastName: $lastname\nEmail: $email\nPhoneNumber: $phonenumber\nMessage:\n$message";
 
     $headers = "From: $email";
 
