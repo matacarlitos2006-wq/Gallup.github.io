@@ -188,6 +188,12 @@ body {
   	z-index: 1000;
 }
 
+.top-bar .logo img {
+  	height: 50px;
+  	width: auto;
+  	cursor: pointer;
+}
+
 .top-bar a {
   	color: white;
   	text-decoration: none;
