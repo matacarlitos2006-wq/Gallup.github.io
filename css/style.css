@@ -18,6 +18,7 @@ body {
   	color: red;
   	text-align: center;
   	padding: 6rem 4rem;
+	border: 1px solid #ddd;
 }
 
 .hero h1 {
