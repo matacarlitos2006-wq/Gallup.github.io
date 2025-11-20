@@ -189,6 +189,7 @@ body {
 }
 
 .top-bar .logo img {
+	margin-right: auto;
   	height: 50px;
   	width: auto;
   	cursor: pointer;
