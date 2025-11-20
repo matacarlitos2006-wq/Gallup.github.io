@@ -3,7 +3,7 @@ const searchData = [
   {
     title: "Events",
     keywords: ["event", "events", "celebration"],
-    link: "../cat/Event.html"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/cat/Event.html"
   },
   {
     title: "History of Gallup",
