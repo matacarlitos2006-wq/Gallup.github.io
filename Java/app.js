@@ -8,37 +8,37 @@ const searchData = [
   {
     title: "History of Gallup",
     keywords: ["history", "gallup history"],
-    link: "./cat/History.html"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/cat/History.html"
   },
   {
     title: "Public Library",
     keywords: ["library", "books"],
-    link: "./Services/Library.html"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Library.html"
   },
   {
     title: "Educational Services",
     keywords: ["education", "school", "child care"],
-    link: "./Services/Education.html"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Education.html"
   },
   {
     title: "Transportation",
     keywords: ["transport", "bus", "travel", "airplane"],
-    link: "./Services/Transportation.html"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Transportation.html"
   },
   {
     title: "Contact Us",
     keywords: ["contact", "email", "phone", "address"],
-    link: "#contact"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/#contact"
   },
   {
     title: "About Us",
     keywords: ["about", "community"],
-    link: "#about"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/#about"
   },
   {
     title: "Home",
     keywords: ["home", "welcome"],
-    link: "#home"
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/#home"
   }
 ];
 
