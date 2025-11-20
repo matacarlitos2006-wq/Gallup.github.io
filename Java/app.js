@@ -8,22 +8,22 @@ const searchData = [
   {
     title: "History of Gallup",
     keywords: ["history", "gallup history"],
-    link: "../cat/History.html"
+    link: "./cat/History.html"
   },
   {
     title: "Public Library",
     keywords: ["library", "books"],
-    link: "../Services/Library.html"
+    link: "./Services/Library.html"
   },
   {
     title: "Educational Services",
     keywords: ["education", "school", "child care"],
-    link: "../Services/Education.html"
+    link: "./Services/Education.html"
   },
   {
     title: "Transportation",
     keywords: ["transport", "bus", "travel", "airplane"],
-    link: "../Services/Transportation.html"
+    link: "./Services/Transportation.html"
   },
   {
     title: "Contact Us",
