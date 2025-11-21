@@ -39,6 +39,11 @@ const searchData = [
     title: "Home",
     keywords: ["home", "welcome"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/#home"
+  },
+  {
+    title: "Reference",
+    keywords: ["reference", "Reference", "Cite"],
+    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Ref/Reference.html"
   }
 ];
 
