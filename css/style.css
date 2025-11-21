@@ -368,7 +368,6 @@ body {
 }
 
 .low-bar {
-	
 	display: flex;
   	align-items: center;
   	gap: 20px;
@@ -379,6 +378,7 @@ body {
   	left: 0;
   	width: 100%;
   	z-index: 1000;
+	border: 4px solid black;
 }
 
 .low-bar .elogo img {
@@ -482,6 +482,7 @@ body {
   	left: 0;
   	width: 100%;
   	z-index: 1000;
+	border: 4px solid black;
 }
 
 .History-bar .hlogo img {
@@ -597,6 +598,7 @@ body {
   	left: 0;
   	width: 100%;
   	z-index: 1000;
+	border: 4px solid black;
 }
 
 .library-bar .llogo img {
@@ -698,6 +700,7 @@ body {
   	left: 0;
   	width: 100%;
   	z-index: 1000;
+	border: 4px solid black;
 }
 
 .education-bar .edlogo img {
