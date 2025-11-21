@@ -278,9 +278,9 @@ body {
 
 .Police-info {
 	border-radius: 30px;
-	border: 10px solid red;
+	border: 10px solid white;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -309,9 +309,9 @@ body {
 
 .Cross-info {
 	border-radius: 30px;
-	border: 10px solid red;
+	border: 10px solid white;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
