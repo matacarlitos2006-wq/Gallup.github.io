@@ -169,6 +169,7 @@ body {
 }
 
 .footer {
+	text-align: center;
 	align-items: center;
   	padding: 2rem;
   	font-size: 0.9rem;
