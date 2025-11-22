@@ -177,7 +177,8 @@ body {
 	justify-content: space-between;
 }
 
-footer a {
+footer .insta {
+	margin-left: auto;
 	font-size: 24px;
 }
 
