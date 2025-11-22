@@ -170,7 +170,6 @@ body {
 
 .footer {
 	align-items: center;
-  	text-align: center;
   	padding: 2rem;
   	font-size: 0.9rem;
   	background: #f1f1f1;
@@ -178,7 +177,6 @@ body {
 }
 
 footer a {
-	margin-right: auto;
 	font-size: 24px;
 }
 
