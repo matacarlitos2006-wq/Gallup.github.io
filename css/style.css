@@ -417,7 +417,7 @@ body {
 }
 
 .feature_t {
-  	background: yellow;
+  	background: #F5B700;
   	border: 1px solid #ddd;
   	padding: 5rem;
   	flex: 1 1 300px;
@@ -438,7 +438,7 @@ body {
 .Event-section {
 	border: 10px solid #ddd;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -545,7 +545,7 @@ body {
 }
 
 .History-fs {
-  background: #f0f013;
+  background: #F5B700;
   border: 1px solid #ddd;
   padding: 5rem;
   flex: 1 1 300px;
@@ -553,9 +553,9 @@ body {
 }
 
 .History-info {
-	border: 10px solid red;
+	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -655,9 +655,9 @@ body {
 }
 
 .library-info {
-	border: 10px solid red;
+	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -759,9 +759,9 @@ body {
 }
 
 .School-info {
-	border: 10px solid red;
+	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -788,9 +788,9 @@ body {
 }
 
 .Middle-info {
-	border: 10px solid red;
+	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -887,9 +887,9 @@ body {
 }
 
 .Transportation-info {
-	border: 10px solid red;
+	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -989,9 +989,9 @@ body {
 
 .Reference-info {
 	border-radius: 20px;
-	border: 10px solid red;
+	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: yellow;
+	background: #F5B700;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -1015,7 +1015,7 @@ body {
 
 .reference-fs {
 	border-radius: 20px;
-  	background: #f0f013;
+  	background: #F5B700;
   	border: 1px solid #ddd;
   	padding: 5rem;
   	flex: 1 1 300px;
@@ -1032,7 +1032,7 @@ body {
 
 .part2-fs {
 	border-radius: 20px;
-  	background: #f0f013;
+  	background: #F5B700;
   	border: 1px solid #ddd;
   	padding: 5rem;
   	flex: 1 1 300px;
