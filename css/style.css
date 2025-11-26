@@ -168,6 +168,20 @@ body {
   	background: #d03a0f;
 }
 
+.Help-button {
+  	display: inline-block;
+  	background: #f04e23;
+  	color: #fff;
+  	font-size: 1.2rem;
+  	padding: 1rem 2rem;
+  	border-radius: 4px;
+  	transition: background 0.3s ease;
+}
+
+.Help-button:hover {
+  	background: #d03a0f;
+}
+
 .footer {
 	display: flex;
 	align-items: center;
