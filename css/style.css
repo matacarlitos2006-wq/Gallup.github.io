@@ -840,6 +840,35 @@ footer .insta {
 	text-align: center;
 }
 
+.High-school {
+	text-align: center;
+}
+
+.highschool-info {
+	border: 10px solid #CCCACC;
+	padding: 2rem;
+	background: #F5B700;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  	gap: 2rem;
+}
+
+.highschool-pic img {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  	display: block;
+}
+
+.info-highschool {
+	display: block;
+	padding: 5rem;
+  	flex: 1 1 300px;
+	text-align: center;
+}
+
 .education-footer {
   text-align: center;
   padding: 2rem;
