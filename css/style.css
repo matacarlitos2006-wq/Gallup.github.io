@@ -712,7 +712,7 @@ footer .insta {
     justify-content: center;
     gap: 40px;
     padding: 40px;
-    flex-wrap: wrap; /* makes it responsive */
+    flex-wrap: wrap;
 }
 
 .card {
