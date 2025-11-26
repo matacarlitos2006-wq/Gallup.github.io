@@ -267,11 +267,15 @@ footer .insta {
   margin-bottom: 2rem;
 }
 
+.whycontact {
+	align-items: center;
+}
+
 .real {
 	display: flex;
   	flex-direction: column;
   	justify-content: left;
-  	align-items: left;
+  	margin-right: auto;
 }
 
 .gallup-h {
@@ -282,7 +286,7 @@ footer .insta {
 	display: flex;
   	flex-direction: column;
   	justify-content: right;
-  	align-items: right;
+  	margin-left: auto;
 }
 
 .Police-info {
