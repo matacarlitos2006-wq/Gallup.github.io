@@ -707,6 +707,48 @@ footer .insta {
   	flex: 1 1 300px;
 	text-align: center;
 }
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap; /* makes it responsive */
+}
+
+.card {
+    background: white;
+    width: 300px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card h2 {
+    color: #b4151b;
+    font-size: 26px;
+    margin: 20px 0 10px;
+    font-weight: 700;
+}
+
+.card p {
+    padding: 0 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.card a {
+    color: #b4151b;
+    font-weight: bold;
+    text-decoration: none;
+}
 
 .library-footer {
   text-align: center;
