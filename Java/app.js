@@ -47,7 +47,7 @@ const searchData = [
   },
   {
     title: "Get Help",
-    keywords: ["Police", "Help", "Lines", "help", "Urgent"],
+    keywords: ["get help", "Police", "Help", "Lines", "help", "Urgent"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Get-Help.html"
   }
 ];
