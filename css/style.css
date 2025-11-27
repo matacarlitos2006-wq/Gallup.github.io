@@ -391,6 +391,7 @@ footer .insta {
 .Map-box {
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 }
 
 .Map-box h1 {
