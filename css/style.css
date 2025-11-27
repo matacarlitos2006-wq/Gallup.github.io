@@ -385,6 +385,7 @@ footer .insta {
 	gap: 5em;
 	border: 20px solid #CCCACC;
 	border-radius: 20px;
+	background-color: black;
 }
 
 .Map-box {
@@ -393,7 +394,7 @@ footer .insta {
 }
 
 .Map-box h1 {
-	font-size: 5em;
+	font-size: 3em;
 }
 
 .Map-box p {
