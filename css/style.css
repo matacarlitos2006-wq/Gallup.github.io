@@ -378,6 +378,14 @@ footer .insta {
 }
 
 
+.Map-gallup {
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	gap: 5em;
+	border: 20px solid;
+}
+
 /* the end of index.html code */
 
 /* Event code */
