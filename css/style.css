@@ -403,6 +403,19 @@ footer .insta {
 	color: white;
 }
 
+.Map-gallup .iframe {
+	border-radius: 2em;
+	border: none;
+	width: 500px;
+	height: 500px;
+	transition: 0.3s ease-in-out;
+}
+
+.Map-gallup .iframe:hover {
+	transform: scale(1,1);
+	opacity: 1;
+}
+
 /* the end of index.html code */
 
 /* Event code */
