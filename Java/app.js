@@ -2,27 +2,27 @@
 const searchData = [
   {
     title: "Events",
-    keywords: ["event", "events", "celebration"],
+    keywords: ["event", "events", "celebration", "Trunk", "Treat", "Red Rock Balloon", "Indian Ceremonial"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/cat/Event.html"
   },
   {
     title: "History of Gallup",
-    keywords: ["history", "gallup history"],
+    keywords: ["history", "gallup history", "Ancestral Puebloans", "Trading Posts", "Inter-Tribal Indian Ceremonial"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/cat/History.html"
   },
   {
     title: "Public Library",
-    keywords: ["library", "books"],
+    keywords: ["library", "books", "Zollinger library", "Computer Lab", "Conference Room", "Study Rooms"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Library.html"
   },
   {
     title: "Educational Services",
-    keywords: ["education", "school", "child care"],
+    keywords: ["education", "school", "child care", "GMCS School", "High School", "Middle School", "Elementry School"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Education.html"
   },
   {
     title: "Transportation",
-    keywords: ["transport", "bus", "travel", "airplane"],
+    keywords: ["transport", "bus", "travel", "airplane", "Gallup Express", "Navajo Transit", "GreyHound"],
     link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/Services/Transportation.html"
   },
   {
