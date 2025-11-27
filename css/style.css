@@ -404,7 +404,7 @@ footer .insta {
 	color: white;
 }
 
-.Map {
+.Map iframe {
 	border-radius: 2em;
 	border: none;
 	width: 500px;
@@ -412,7 +412,7 @@ footer .insta {
 	transition: 0.3s ease-in-out;
 }
 
-.Map:hover {
+.Map iframe:hover {
 	transform: scale(1,1);
 	opacity: 1;
 }
