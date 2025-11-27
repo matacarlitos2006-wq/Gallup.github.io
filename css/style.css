@@ -384,6 +384,7 @@ footer .insta {
 	justify-content: center;
 	gap: 5em;
 	border: 20px solid #CCCACC;
+	border-radius: 20px;
 }
 
 /* the end of index.html code */
