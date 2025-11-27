@@ -387,6 +387,19 @@ footer .insta {
 	border-radius: 20px;
 }
 
+.Map-box {
+	align-items: center;
+	justify-content: center;
+}
+
+.Map-box h1 {
+	font-size: 5em;
+}
+
+.Map-box p {
+	font-size: 1.2em;
+}
+
 /* the end of index.html code */
 
 /* Event code */
