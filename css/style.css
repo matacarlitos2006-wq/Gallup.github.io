@@ -1277,3 +1277,16 @@ footer .insta {
 	background-color: rgba(0, 0, 0, 0.5); 
 	font: italic small-caps bold 20px/30px Georgia, serif;
 }
+/* moblie access */
+@media (max-width: 768px) {
+    display: flex;
+    justify-content: center;
+    
+.body, h1, h2, h3, p, a {
+  	font-size: 40px;
+	margin: 0;
+  	padding: 0;
+  	text-decoration: none;
+  	color: inherit;
+}
+}
