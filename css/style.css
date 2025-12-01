@@ -810,6 +810,11 @@ footer .insta {
     text-decoration: none;
 }
 
+.card:hover {
+	transform: scale(1.1);
+	opacity: 1;
+}
+
 .library-footer {
   text-align: center;
   padding: 2rem;
