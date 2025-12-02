@@ -383,7 +383,7 @@ footer .insta {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	max-width: 600px;
+	padding: 2rem;
 }
 
 .Map-box h1 {
