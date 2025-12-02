@@ -368,21 +368,6 @@ footer .insta {
 	text-align: center;
 }
 
-.gallupvid {
-	text-align: center;
-}
-
-.gallup-video {
-	border-radius: 30px;
-	border: 10px solid #CCCACC;
-	padding: 2rem;
-	background: #F5B700;
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
-  	gap: 2rem;
-}
-
 
 .Map-gallup {
 	display: flex;
