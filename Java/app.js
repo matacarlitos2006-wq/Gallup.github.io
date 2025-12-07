@@ -28,17 +28,17 @@ const searchData = [
   {
     title: "Contact Us",
     keywords: ["contact", "email", "phone", "address"],
-    link: "../#contact"
+    link: "../index.html"
   },
   {
     title: "About Us",
     keywords: ["about", "community"],
-    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/#about"
+    link: "../index.html"
   },
   {
     title: "Home",
     keywords: ["home", "welcome"],
-    link: "https://matacarlitos2006-wq.github.io/Gallup.github.io/#home"
+    link: "../index.html"
   },
   {
     title: "Reference",
