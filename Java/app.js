@@ -3,52 +3,52 @@ const searchData = [
   {
     title: "Events",
     keywords: ["event", "events", "celebration", "Trunk", "Treat", "Red Rock Balloon", "Indian Ceremonial"],
-    link: "../cat/Events.html"
+    link: "./cat/Events.html"
   },
   {
     title: "History of Gallup",
     keywords: ["history", "gallup history", "Ancestral Puebloans", "Trading Posts", "Inter-Tribal Indian Ceremonial"],
-    link: "../cat/History.html"
+    link: "./cat/History.html"
   },
   {
     title: "Public Library",
     keywords: ["library", "books", "Zollinger library", "Computer Lab", "Conference Room", "Study Rooms"],
-    link: "../cat/Library.html"
+    link: "./cat/Library.html"
   },
   {
     title: "Educational Services",
     keywords: ["education", "school", "child care", "GMCS School", "High School", "Middle School", "Elementry School"],
-    link: "../Services/Education.html"
+    link: "./Services/Education.html"
   },
   {
     title: "Transportation",
     keywords: ["transport", "bus", "travel", "airplane", "Gallup Express", "Navajo Transit", "GreyHound"],
-    link: "../Services/Transportation.html"
+    link: "./Services/Transportation.html"
   },
   {
     title: "Contact Us",
     keywords: ["contact", "email", "phone", "address"],
-    link: "../index.html"
+    link: "index.html"
   },
   {
     title: "About Us",
     keywords: ["about", "community"],
-    link: "../index.html"
+    link: "index.html"
   },
   {
     title: "Home",
     keywords: ["home", "welcome"],
-    link: "../index.html"
+    link: "index.html"
   },
   {
     title: "Reference",
     keywords: ["reference", "Reference", "Cite"],
-    link: "../Ref/Reference.html"
+    link: "./Ref/Reference.html"
   },
   {
     title: "Get Help",
     keywords: ["get help", "Police", "Help", "Lines", "help", "Urgent"],
-    link: "../Services/Get-Help.html"
+    link: "./Services/Get-Help.html"
   }
 ];
 
