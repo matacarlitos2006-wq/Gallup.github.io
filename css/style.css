@@ -94,7 +94,8 @@ body {
 
 .feature {
 	border-radius: 20px;
-  	background: #F5B700;
+	background: #020024;
+	background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
   	border: 1px solid #ddd;
   	padding: 5rem;
   	flex: 1 1 300px;
