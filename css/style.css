@@ -47,6 +47,7 @@ body, h1, h2, h3, p, a {
   	padding: 0;
   	text-decoration: none;
   	color: inherit;
+	font-size: 3rem;
 }
 
 body {
