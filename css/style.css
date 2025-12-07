@@ -244,6 +244,7 @@ footer .insta {
 	border-radius: 40px;
 	animation: bounce; 
   	animation-duration: 2s; 
+	margin: 2rem auto;
 }
 
 .top-bar .logo img {
