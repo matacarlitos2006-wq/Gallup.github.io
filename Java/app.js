@@ -84,3 +84,19 @@ function handleSearch() {
     alert(`No results found for "${query}".`);
   }
 }
+
+
+const animateElement = document.querySelector('.features');
+
+
+function checkScroll() {
+    const rect = animateElement.getBoundingClientRect();
+    const elementTop = rect.top;
+
+    if (elementTop < window.innerHeight) {
+        animateElement.classList.add('show');
+    }
+}
+
+
+window.addEventListener('scroll', checkScroll);
