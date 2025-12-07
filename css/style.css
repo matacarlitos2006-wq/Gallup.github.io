@@ -221,6 +221,8 @@ footer .insta {
   	z-index: 1000;
 	border: 2px solid black;
 	border-radius: 40px;
+	animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 .top-bar .logo img {
