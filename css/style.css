@@ -1368,15 +1368,13 @@ footer .insta {
 	font: italic small-caps bold 20px/30px Georgia, serif;
 }
 /* moblie access */
-@media (min-width: 768px) {
-  .container {
-    width: 80%;
+@media (max-width: 600px) {
+  .nav {
+    flex-direction: column;
   }
 }
-
-
-@media (max-width: 767px) {
-  .container {
-    width: 100%;
+@media (min-width: 601px) and (max-width: 900px) {
+  .nav {
+    font-size: 1.2rem;
   }
 }
