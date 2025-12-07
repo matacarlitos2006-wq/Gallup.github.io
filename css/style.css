@@ -383,7 +383,8 @@ footer .insta {
 	border-radius: 30px;
 	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: #F5B700;
+	backdrop-filter: blur(5px);
+	background-color: rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
@@ -414,7 +415,8 @@ footer .insta {
 	border-radius: 30px;
 	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: #F5B700;
+	backdrop-filter: blur(5px);
+	background-color: rgba(0, 0, 0, 0.3);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
