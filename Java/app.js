@@ -13,7 +13,7 @@ const searchData = [
   {
     title: "Public Library",
     keywords: ["library", "books", "Zollinger library", "Computer Lab", "Conference Room", "Study Rooms"],
-    link: "./cat/Library.html"
+    link: "./Services/Library.html"
   },
   {
     title: "Educational Services",
