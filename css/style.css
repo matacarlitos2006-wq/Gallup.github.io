@@ -67,11 +67,18 @@ body {
 }
 
 .features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 2rem;
-  gap: 2rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 2rem;
+	gap: 2rem;
+	opacity: 0; 
+    transform: translateY(50px);
+}
+
+.features.show {
+    opacity: 1;
+    transform: translateY(0);
 }
 
 .feature {
