@@ -18,7 +18,7 @@ body {
     background-attachment: fixed; 
     color: #D0083A;
     text-align: center;
-    padding: 6rem 6rem;
+    padding: 10rem 6rem;
     border: 2px solid black;
     background-color: blue; 
     position: relative;
@@ -191,9 +191,10 @@ body {
 .footer {
 	display: flex;
 	align-items: center;
-  	padding: 2rem;
+  	padding: 4rem;
   	font-size: 0.9rem;
-  	background: #f1f1f1;
+	color: aqua;
+  	background-color: rgba(0, 0, 0, 0.8);
 	justify-content: center;
 	position: relative;
 }
@@ -202,20 +203,24 @@ footer .insta {
 	position: absolute;
     right: 2rem;
 	font-size: 24px;
+	color: #ddd;
 }
 
 .top-bar {
   	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .top-bar .logo img {
@@ -232,7 +237,7 @@ footer .insta {
 .top-bar a {
   	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -272,24 +277,31 @@ footer .insta {
 }
 
 .Contact_pl {
-  background: #000;
-  color: white;
-  text-align: center;
-  padding: 4rem 2rem;
+	background: rgba(0, 0, 0, 0.3);
+	color: white;
+	text-align: center;
+	padding: 4rem 2rem;
+	width: 70%;
+	margin: 2rem auto;
+	border-radius: 50px;
 }
+
 .Contact_pl h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+	text-align: center;
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 
 .Contact_pl p {
-  font-size: 1rem;
-  margin-bottom: 2rem;
+	font-size: 1rem;
+	margin-bottom: 2rem;
 }
 
 .whycontact {
-	align-items: center;
-	position: fixed; 
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+	margin-right: auto;
 }
 
 .real {
@@ -376,7 +388,8 @@ footer .insta {
 	gap: 5em;
 	border: 20px solid #CCCACC;
 	border-radius: 30px;
-	background-color: black;
+	background-color: rgba(0, 0, 0, 0.3);
+	height: 600px;
 }
 
 .Map-box {
@@ -399,8 +412,9 @@ footer .insta {
 .Map {
 	border-radius: 2em;
 	border: none;
-	width: 400px;
-	height: 400px;
+	width: 1500px;
+	height: 500px;
+	right: 40px;
 	transition: 0.3s ease-in-out;
 }
 
@@ -453,15 +467,18 @@ footer .insta {
 .low-bar {
 	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .low-bar .elogo img {
@@ -479,7 +496,7 @@ footer .insta {
 .low-bar a {
 	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -557,15 +574,18 @@ footer .insta {
 .History-bar {
   	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .History-bar .hlogo img {
@@ -582,8 +602,8 @@ footer .insta {
 
 .History-bar a {
   	text-decoration: none;
-  	font-size: 18px; /* idk at this point */
-  	color: black;
+  	font-size: 18px; 
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -673,15 +693,18 @@ footer .insta {
 .library-bar {
 	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .library-bar .llogo img {
@@ -699,7 +722,7 @@ footer .insta {
 .library-bar a {
   	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -764,13 +787,14 @@ footer .insta {
 .container {
     display: flex;
     justify-content: center;
-    gap: 40px;
-    padding: 40px;
+    gap: 80px;
+    padding: 150px;
     flex-wrap: wrap;
 }
 
 .card {
-    background: white;
+	background: white;
+	height: 400px;
     width: 300px;
     border-radius: 6px;
     overflow: hidden;
@@ -822,15 +846,18 @@ footer .insta {
 .education-bar {
 	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .education-bar .edlogo img {
@@ -848,7 +875,7 @@ footer .insta {
 .education-bar a {
 	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -983,15 +1010,18 @@ footer .insta {
 .Transportation-bar {
 	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .Transportation-bar .translogo img {
@@ -1008,7 +1038,7 @@ footer .insta {
 .Transportation-bar a {
 	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -1081,15 +1111,18 @@ footer .insta {
 .reference-bar {
   	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .reference-bar .reflogo img {
@@ -1107,7 +1140,7 @@ footer .insta {
 .reference-bar a {
 	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
@@ -1208,15 +1241,18 @@ footer .insta {
 .Help-bar {
 	display: flex;
   	align-items: center;
-  	gap: 20px;
-  	background-color: #fff;
+  	gap: 10px;
+	backdrop-filter: blur(5px);
+  	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
 	position: fixed; 
-  	top: 0;
-  	left: 0;
-  	width: 100%;
+  	top: 40px;
+  	left: 250px;
+  	width: 70%;
+	height: 70px;
   	z-index: 1000;
-	border: 4px solid black;
+	border: 2px solid black;
+	border-radius: 40px;
 }
 
 .Help-bar .Help-logo img {
@@ -1234,7 +1270,7 @@ footer .insta {
 .Help-bar a {
   	text-decoration: none;
   	font-size: 18px;
-  	color: black;
+  	color: white;
   	padding: 6px 10px;
 }
 
