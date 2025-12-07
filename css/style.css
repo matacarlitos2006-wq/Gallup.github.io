@@ -10,6 +10,24 @@ body {
 	background-color: #CCCACC; 
 }
 
+@keyframes slideRight {
+    0% {
+        background-image: url("../images/Gallup-background.jpg");
+    }
+    25% {
+        background-image: url("../images/Mckinley-academy.jpg");
+    }
+    50% {
+        background-image: url("../images/Downtown.png"); 
+    }
+    75% {
+        background-image: url("../images/Gallup-logo.jpg"); 
+    }
+    100% {
+        background-image: url("../images/Gallup-background.jpg");
+    }
+}
+
 .home-page {
     background-image: url("../images/Gallup-background.jpg");
     background-position: center;
@@ -23,6 +41,7 @@ body {
     background-color: blue; 
     position: relative;
     z-index: 1;
+    animation: slideRight 20s infinite ease-in-out; 
 }
 
 .home-page h1 {
@@ -46,6 +65,7 @@ body {
     font: italic small-caps bold 20px/30px Georgia, serif;
     color: #FFF;
 }
+
 
 .cta-button {
     background-color: #FF6A00;
