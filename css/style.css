@@ -435,7 +435,7 @@ footer .insta {
     background-attachment: fixed; 
     color: #D0083A;
     text-align: center;
-    padding: 6rem 6rem;
+    padding: 10rem 6rem;
     border: 2px solid black;
     background-color: blue; 
     position: relative;
@@ -620,7 +620,7 @@ footer .insta {
   	background-blend-mode: multiply; 
   	color: red;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 10rem 4rem;
 }
 
 .History-header h1 {
@@ -739,7 +739,7 @@ footer .insta {
   	background-blend-mode: multiply; 
   	color: red;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 10rem 4rem;
 }
 
 .header-library h1 {
@@ -890,7 +890,7 @@ footer .insta {
 	background-size: cover;
   	color: #D0083A;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 10rem 4rem;
 	border: 2px solid black;
 }
 
@@ -1055,7 +1055,7 @@ footer .insta {
   	background-blend-mode: multiply; 
   	color: red;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 10rem 4rem;
 }
 
 .header-Transportation h1 {
@@ -1157,7 +1157,7 @@ footer .insta {
   	background-blend-mode: multiply; 
   	color: red;
   	text-align: center;
-  	padding: 6rem 4rem;
+  	padding: 10rem 4rem;
 }
 
 .reference-header h1 {
