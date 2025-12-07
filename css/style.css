@@ -37,7 +37,6 @@ body {
     text-align: center;
     padding: 20rem 6rem;
     border: 2px solid black;
-    background-color: blue; 
     position: relative;
     z-index: 1;
     animation: slideRight 20s infinite ease-in-out; 
