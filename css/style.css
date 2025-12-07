@@ -221,8 +221,8 @@ footer .insta {
   	z-index: 1000;
 	border: 2px solid black;
 	border-radius: 40px;
-	animation: bounce; /* referring directly to the animation's @keyframe declaration */
-  	animation-duration: 2s; /* don't forget to set a duration! */
+	animation: bounce; 
+  	animation-duration: 2s; 
 }
 
 .top-bar .logo img {
@@ -279,6 +279,7 @@ footer .insta {
 }
 
 .Contact_pl {
+	backdrop-filter: blur(5px);
 	background: rgba(0, 0, 0, 0.3);
 	color: white;
 	text-align: center;
