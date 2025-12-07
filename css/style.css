@@ -1,9 +1,41 @@
 /* index.html code */
+
+@keyframes backGround {
+	0% {
+		background: #DD5E89;
+		background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);
+		background: linear-gradient(to right, #F7BB97, #DD5E89);
+	}
+
+	25% {
+		background: #1A2980;
+		background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);
+		background: linear-gradient(to right, #26D0CE, #1A2980);
+	}
+
+	50% {
+		background: #348F50; 
+		background: -webkit-linear-gradient(to right, #56B4D3, #348F50);
+		background: linear-gradient(to right, #56B4D3, #348F50);
+	}
+	75% {
+		background: #02AAB0;
+		background: -webkit-linear-gradient(to right, #00CDAC, #02AAB0);
+		background: linear-gradient(to right, #00CDAC, #02AAB0);
+	}
+	100% {
+		background: #DD5E89;
+		background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);
+		background: linear-gradient(to right, #F7BB97, #DD5E89);
+	}
+}
+
 body, h1, h2, p, a {
   	margin: 0;
   	padding: 0;
   	text-decoration: none;
   	color: inherit;
+	animation: backGround 20s infinite ease-in-out;
 }
 
 body {
