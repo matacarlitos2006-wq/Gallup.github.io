@@ -1,9 +1,7 @@
 /* index.html code */
 
 @media (max-width: 768px) {
-
-  /* Top Navigation Bar */
-  .top-bar {
+	.top-bar {
     flex-direction: column;
     width: 95%;
     height: auto;
@@ -27,10 +25,10 @@
     font-size: 14px;
   }
 
-  /* Home Page Header Section */
+
   .home-page {
     padding: 8rem 1rem;
-    background-attachment: scroll; /* fix iPhone bug */
+    background-attachment: scroll; 
   }
 
   .home-page h1 {
@@ -43,14 +41,14 @@
     padding: 0.8rem;
   }
 
-  /* Features / Services cards */
+
   .feature,
   .service_feature {
     padding: 2rem;
     flex: 1 1 100%;
   }
 
-  /* Police & Hospital Sections */
+	
   .Police-info,
   .Cross-info {
     flex-direction: column;
@@ -69,7 +67,7 @@
     margin: 0 auto;
   }
 
-  /* Map Section */
+  
   .Map-gallup {
     flex-direction: column;
     height: auto;
@@ -90,7 +88,7 @@
     border-radius: 1rem;
   }
 
-  /* Contact Section */
+  
   .Contact_pl {
     width: 95%;
     padding: 2rem 1rem;
@@ -103,7 +101,7 @@
     margin-right: auto;
   }
 
-  /* Footer */
+  
   .footer {
     flex-direction: column;
     text-align: center;
