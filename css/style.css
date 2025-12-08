@@ -589,7 +589,7 @@ footer .insta {
 	align-items: center; 
 	justify-content: center;
 	gap: 5em;
-	border: 20px solid #CCCACC;
+	border: 10px solid #CCCACC;
 	border-radius: 30px;
 	background-color: rgba(0, 0, 0, 0.3);
 	height: 600px;
