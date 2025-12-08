@@ -1,39 +1,44 @@
 /* index.html code */
 
 @media (max-width: 768px) {
+	
 	.top-bar {
-		width: 100%;
-		margin: 0;
-		border-radius: 0;
-		height: auto;
-		padding: 1rem;
-		flex-direction: column;
-		gap: 0.5rem;
+		position: fixed;
+    	top: 0;
+    	left: 0 !important;
+    	width: 100% !important;
+    	margin: 0 !important;
+    	padding: 0.5rem 1rem;
+    	height: auto;
+    	border-radius: 0;
+    	flex-direction: column;
+    	gap: 0.5rem;
+    	justify-content: center;
   }
 
-  .top-bar .logo img {
-	  margin: 0 auto;
+	
+	.top-bar a {
+		font-size: 16px;
   }
 
-  .search-container {
-    width: 100%;
-    justify-content: center;
+  	.search-container {
+    	width: 100%;
+    	justify-content: center;
   }
 
-  .search-container input {
-    width: 70%;
-    font-size: 14px;
+  	.search-container input {
+    	width: 70%;
   }
 
 
-  .home-page {
-    padding: 8rem 1rem;
-    background-attachment: scroll; 
+  	.home-page {
+    	padding: 8rem 1rem;
+    	background-attachment: scroll; 
   }
 
-  .home-page h1 {
-    font-size: 1.8rem;
-    padding: 1rem;
+  	.home-page h1 {
+    	font-size: 1.8rem;
+    	padding: 1rem;
   }
 
   .home-page p {
