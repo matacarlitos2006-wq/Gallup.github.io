@@ -1,18 +1,18 @@
 /* index.html code */
 
 @media (max-width: 768px) {
-.top-bar {
-    width: 100%;
-    margin: 0;
-    border-radius: 0;
-    height: auto;
-    padding: 1rem;
-    flex-direction: column;
-    gap: 0.5rem;
+	.top-bar {
+		width: 100%;
+		margin: 0;
+		border-radius: 0;
+		height: auto;
+		padding: 1rem;
+		flex-direction: column;
+		gap: 0.5rem;
   }
 
   .top-bar .logo img {
-    margin: 0 auto;
+	  margin: 0 auto;
   }
 
   .search-container {
