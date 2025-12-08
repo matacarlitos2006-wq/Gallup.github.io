@@ -386,7 +386,8 @@ footer .insta {
 	backdrop-filter: blur(5px);
   	background-color: rgba(0, 0, 0, 0.3);
   	padding: 10px 20px;
-	justify-content: center;
+	left: 0%;
+	right: 250px;
   	width: 70%;
 	height: 70px;
   	z-index: 1000;
