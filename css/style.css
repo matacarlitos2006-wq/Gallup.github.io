@@ -294,7 +294,7 @@ h1, h2, h3, p {
 
 .Why_you_here h1 {
 	font-size: 3rem;
-	animation: Gallup 3s infinite;
+	animation: Gallup 5s infinite;
 	font-weight: bold;
 	text-transform: uppercase;
 	margin: 0;
