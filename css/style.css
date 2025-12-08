@@ -1,5 +1,18 @@
 /* index.html code */
 
+@media (max-width: 768px) {
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+
 @keyframes backGround {
 	0% {
 		background: #DD5E89;
