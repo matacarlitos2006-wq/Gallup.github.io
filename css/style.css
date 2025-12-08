@@ -258,6 +258,45 @@ h1, h2, h3, p {
 	text-align: center;
 }
 
+@keyframes Gallup {
+	0% {
+		color: red;
+	}
+
+	25% {
+		color: cyan;
+	}
+
+	50% {
+		color: green;
+	}
+
+	75% {
+		color: blue;
+	}
+
+	100% {
+		color: yellow;
+	}
+}
+
+.Why_you_here {
+	text-align: center;
+}
+
+.Why_you_here h1 {
+	font-size: 3rem;
+	animation: Gallup 3s infinite;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.Why_you_here p {
+	font-size: 1.5rem;
+}
+
 .features {
 	display: flex;
 	flex-wrap: wrap;
