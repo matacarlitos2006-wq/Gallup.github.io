@@ -585,6 +585,8 @@ footer .insta {
 
 
 .Map-gallup {
+	border: 10px solid rgba(0, 0, 0, 0.3);
+	gap: 2rem;
 	display: flex;
 	align-items: center; 
 	justify-content: center;
