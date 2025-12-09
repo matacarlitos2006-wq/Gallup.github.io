@@ -768,7 +768,9 @@ footer .insta {
 }
 
 .feature_t {
-  	background: #F5B700;
+  	background: #642b73;
+  	background: -webkit-linear-gradient(to bottom, #642b73, #c6426e); 
+  	background: linear-gradient(to bottom, #642b73, #c6426e);
   	border: 1px solid #ddd;
   	padding: 5rem;
   	flex: 1 1 300px;
@@ -899,17 +901,21 @@ footer .insta {
 }
 
 .History-fs {
-  background: #F5B700;
-  border: 1px solid #ddd;
-  padding: 5rem;
-  flex: 1 1 300px;
-  text-align: center;
+	background: #642b73;
+  	background: -webkit-linear-gradient(to bottom, #642b73, #c6426e); 
+  	background: linear-gradient(to bottom, #642b73, #c6426e);
+  	border: 1px solid #ddd;
+  	padding: 5rem;
+  	flex: 1 1 300px;
+  	text-align: center;
 }
 
 .History-info {
 	border: 10px solid #CCCACC;
 	padding: 2rem;
-	background: #F5B700;
+	background: #642b73;
+  	background: -webkit-linear-gradient(to bottom, #642b73, #c6426e); 
+  	background: linear-gradient(to bottom, #642b73, #c6426e);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
