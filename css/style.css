@@ -791,7 +791,9 @@ footer .insta {
 .Event-section {
 	border: 10px solid #ddd;
 	padding: 2rem;
-	background: #F5B700;
+	background: #642b73;
+  	background: -webkit-linear-gradient(to bottom, #642b73, #c6426e); 
+  	background: linear-gradient(to bottom, #642b73, #c6426e);
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
