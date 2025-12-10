@@ -297,27 +297,30 @@ h1, h2, h3, p {
 	font-size: 3rem;
 }
 
-.wellwell span {
-	position: relative;
-	display: inline-block;
-	color: orange;
-	height: 1.25em;
-	vertical-align: bottom;
-	overflow: hidden;
+.wellwell > span {
+  position: relative;
+  display: inline-block;
+  height: 1.2em;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+.wellwell > span span {
+  display: block;
 }
 
 @keyframes Text {
-	0% {transform: translateY(0%);}
-	25% {tranform: translateY(-100%);}
-	50% {tranform: translateY(-200%);}
-	75% {transform: translateY(-300%);}
-	100% {tranform: translateY(-400%);}
+  0%   { transform: translateY(0%); }
+  25%  { transform: translateY(-100%); }
+  50%  { transform: translateY(-200%); }
+  75%  { transform: translateY(-300%); }
+  100% { transform: translateY(-400%); }
 }
 
-.wellwell span span {
-	display: block;
-	animation: Text 7s infinite ease;
+.wellwell > span {
+  animation: Text 6s infinite ease;
 }
+
 
 .Why_you_here p {
 	font-size: 1.7rem;
