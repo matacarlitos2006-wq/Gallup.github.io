@@ -316,7 +316,7 @@ h1, h2, h3, p {
 	100% {tranform: translateY(-400%);}
 }
 
-.wellwell .span .span {
+.exam {
 	display: block;
 	animation: Text 5s infinite ease;
 }
