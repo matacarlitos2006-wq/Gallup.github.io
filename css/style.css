@@ -282,46 +282,49 @@ h1, h2, h3, p {
 }
 
 .Why_you_here {
-	text-align: center;
-	border: 5px solid black;
-	padding: 2rem;
-	margin: 2rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 2rem;
+    text-align: center;
+    border: 5px solid black;
+    padding: 2rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
 }
 
 .Why_you_here h1 {
-	font-size: 3rem;
-}
-
-.wellwell .scroller {
-  display: inline-block;
-  height: 1em;
-  overflow: hidden;
-  vertical-align: bottom;
-  position: relative;
-}
-
-
-.wellwell .scroller span {
-  	display: block;
-  	line-height: 1em;
-}
-
-.wellwell .scroller {
-	animation: scrollText 8s infinite steps(4);
-}
-
-@keyframes scrollText {
-  	0%   { transform: translateY(0); }
-  	100% { transform: translateY(-400%); }
+    font-size: 3rem;
+    line-height: 1.2;
 }
 
 .Why_you_here p {
-	font-size: 1.7rem;
+    font-size: 1.7rem;
+}
+
+
+.wellwell .scroller {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    height: 1.2em; 
+    position: relative;
+}
+
+.wellwell .scroller span {
+    display: block;
+    height: 1.2em;       
+    line-height: 1.2em;
+}
+
+
+.wellwell .scroller {
+    animation: scrollText 8s infinite steps(4);
+}
+
+@keyframes scrollText {
+    0%   { transform: translateY(0); }
+    100% { transform: translateY(-4.8em); } 
 }
 
 .features {
