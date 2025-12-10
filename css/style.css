@@ -297,7 +297,7 @@ h1, h2, h3, p {
 	font-size: 3rem;
 }
 
-.wellwell .span {
+.wellwell span {
 	position: relative;
 	display: inline-block;
 	color: orange;
