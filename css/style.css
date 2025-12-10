@@ -256,7 +256,7 @@ h1, h2, h3, p {
 
 .about_t h1 {
 	text-align: center;
-	font-size: 4rem;
+	font-size: 3rem;
 }
 
 @keyframes Gallup {
@@ -355,6 +355,7 @@ h1, h2, h3, p {
 
 .service h1 {
 	text-align: center;
+	font-size: 3rem;
 }
 
 .service_f {
