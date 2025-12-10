@@ -308,17 +308,17 @@ h1, h2, h3, p {
 	overflow: hidden;
 }
 
-.wellwell .span .span {
-	display: block;
-	animation: ani 5s infinite ease;
-}
-
-@keyframes ani {
+@keyframes Text {
 	0% {transform: translateY(0%);}
 	25% {tranform: translateY(-100%);}
 	50% {tranform: translateY(-200%);}
 	75% {transform: translateY(-300%);}
 	100% {tranform: translateY(-400%);}
+}
+
+.wellwell .span .span {
+	display: block;
+	animation: Text 5s infinite ease;
 }
 
 .Why_you_here p {
