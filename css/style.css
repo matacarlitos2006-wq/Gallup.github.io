@@ -303,28 +303,37 @@ h1, h2, h3, p {
 }
 
 
-.wellwell .scroller {
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: bottom;
-    height: 1.2em; 
-    position: relative;
+.wellwell {
+  	font-size: 3rem;
+  	line-height: 1.2;
 }
 
-.wellwell .scroller span {
-    display: block;
-    height: 1.2em;       
-    line-height: 1.2em;
+.scroller {
+  	display: inline-block;
+  	height: 1.2em;         
+  	overflow: hidden;
+  	vertical-align: bottom;
+  	position: relative;
 }
 
 
-.wellwell .scroller {
-    animation: scrollText 8s infinite steps(4);
+.scroller .inner {
+  	display: flex;
+  	flex-direction: column;
 }
 
-@keyframes scrollText {
-    0%   { transform: translateY(0); }
-    100% { transform: translateY(-4.8em); } 
+.scroller .inner {
+  	animation: smoothScroll 8s infinite linear;
+}
+
+@keyframes smoothScroll {
+	
+  	0% {
+    	transform: translateY(0);
+  	}
+  	100% {
+    	transform: translateY(-4.8em);
+  	}
 }
 
 .features {
