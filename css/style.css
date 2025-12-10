@@ -297,30 +297,28 @@ h1, h2, h3, p {
 	font-size: 3rem;
 }
 
-.wellwell > span {
-  position: relative;
+.wellwell .scroller {
   display: inline-block;
-  height: 1.2em;
+  height: 1em;
   overflow: hidden;
   vertical-align: bottom;
+  position: relative;
 }
 
-.wellwell > span span {
-  display: block;
+
+.wellwell .scroller span {
+  	display: block;
+  	line-height: 1em;
 }
 
-@keyframes Text {
-  0%   { transform: translateY(0%); }
-  25%  { transform: translateY(-100%); }
-  50%  { transform: translateY(-200%); }
-  75%  { transform: translateY(-300%); }
-  100% { transform: translateY(-400%); }
+.wellwell .scroller {
+	animation: scrollText 8s infinite steps(4);
 }
 
-.wellwell > span {
-  animation: Text 6s infinite ease;
+@keyframes scrollText {
+  	0%   { transform: translateY(0); }
+  	100% { transform: translateY(-400%); }
 }
-
 
 .Why_you_here p {
 	font-size: 1.7rem;
