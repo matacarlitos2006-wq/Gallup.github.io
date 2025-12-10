@@ -303,7 +303,10 @@ h1, h2, h3, p {
 }
 
 .wellwell .span {
+	position: relative;
+	display: inline-block;
 	color: orange;
+	height: 1.25em;
 	vertical-align: bottom;
 	overflow: hidden;
 }
