@@ -302,6 +302,25 @@ h1, h2, h3, p {
 	padding: 0;
 }
 
+.wellwell .span {
+	color: orange;
+	vertical-align: bottom;
+	overflow: hidden;
+}
+
+.wellwell .span .span {
+	display: block;
+	animation: ani 5s infinite ease;
+}
+
+@keyframes ani {
+	0% {transform: translateY(0%);}
+	25% {tranform: translateY(-100%);}
+	50% {tranform: translateY(-200%);}
+	75% {transform: translateY(-300%);}
+	100% {tranform: translateY(-400%);}
+}
+
 .Why_you_here p {
 	font-size: 1.7rem;
 }
