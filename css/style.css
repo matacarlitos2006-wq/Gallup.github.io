@@ -346,6 +346,7 @@ h1, h2, h3, p {
 }
 
 .rotating-photo {
+	border-radius: 20px;
 	width: 90%;
 	height: auto;
 	align-items: center;
