@@ -336,6 +336,20 @@ h1, h2, h3, p {
   	}
 }
 
+@keyframes rotating {
+	0% {
+		transform: translateY(0);
+	}
+	100% {
+		tranform: translateY(-5em);
+	}
+}
+
+.rotating-photo {
+	align-items: center;
+	animation: rotating 5s infinite linear;
+}
+
 .features {
 	display: flex;
 	flex-wrap: wrap;
