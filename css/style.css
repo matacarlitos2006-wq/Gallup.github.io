@@ -346,6 +346,8 @@ h1, h2, h3, p {
 }
 
 .rotating-photo {
+	width: 90%;
+	height: auto;
 	align-items: center;
 	animation: rotating 5s infinite linear;
 }
