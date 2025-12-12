@@ -346,11 +346,10 @@ h1, h2, h3, p {
 }
 
 .rotating-photo {
-	border-radius: 20px;
+	border-radius: 50px;
 	width: 90%;
 	height: auto;
 	align-items: center;
-	animation: rotating 5s infinite linear;
 }
 
 .features {
