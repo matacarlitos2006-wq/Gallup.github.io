@@ -181,7 +181,7 @@ body {
 }
 
 h1, h2, h3, p {
-	color: white;
+	color: #2E2E2E;
 }
 
 @keyframes slideRight {
