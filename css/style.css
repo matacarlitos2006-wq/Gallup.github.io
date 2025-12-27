@@ -364,9 +364,7 @@ h1, h2, h3, p {
 
 .feature {
 	border-radius: 20px;
-	background: #642b73;
-  	background: -webkit-linear-gradient(to bottom, #642b73, #c6426e); 
-  	background: linear-gradient(to bottom, #642b73, #c6426e);
+	background: #F2E8CF;
   	border: 1px solid #ddd;
   	padding: 5rem;
   	flex: 1 1 300px;
