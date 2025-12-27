@@ -176,8 +176,7 @@ body, h1, h2, h3, p, a {
 }
 
 body {
-	background-color: #CCCACC;
-	animation: backGround 20s infinite ease-in-out;
+	background-color: #1F6F78;
 }
 
 h1, h2, h3, p {
