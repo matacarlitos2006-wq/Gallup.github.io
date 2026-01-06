@@ -500,8 +500,8 @@ footer .insta {
 .Police-info {
 	border-radius: 30px;
 	border: 10px solid #CCCACC;
-	padding: 2rem;
-	margin: 2rem;
+	padding: 4rem;
+	margin: 4rem;
 	backdrop-filter: blur(5px);
 	background-color: rgba(0, 0, 0, 0.3);
 	display: flex;
