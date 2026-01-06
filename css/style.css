@@ -506,8 +506,7 @@ footer .insta {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-  	gap: 2rem;
-	height: 50vh;
+  	gap: 5rem;
 }
 
 .Police-pic img {
