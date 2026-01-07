@@ -487,7 +487,6 @@ footer .insta {
 .gallup-h {
 	text-align: center;
 	font-size: 1.2rem;
-	height: 100px;
 }
 
 .personal {
@@ -529,7 +528,6 @@ footer .insta {
 .gallup-p {
 	text-align: center;
 	font-size: 1.2rem;
-	height: 100px;
 }
 
 .Cross-info {
@@ -569,6 +567,8 @@ footer .insta {
 	align-items: center; 
 	justify-content: center;
 	gap: 5em;
+	padding: 4rem;
+	margin: 4rem;
 	border-radius: 30px;
 	background-color: rgba(0, 0, 0, 0.3);
 	height: 600px;
