@@ -605,6 +605,21 @@ footer .insta {
 	opacity: 1;
 }
 
+.p-visit {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+.name-place {
+	display: block;
+	width: 1000px;
+	height: 100vh;
+	padding: 4rem;
+	margin: 4rem;
+	backdrop-filter: blur(5px);
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
 /* the end of index.html code */
 
 /* Event code */
