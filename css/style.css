@@ -1525,3 +1525,9 @@ footer .insta {
 	background-color: rgba(0, 0, 0, 0.5); 
 	font: italic small-caps bold 20px/30px Georgia, serif;
 }
+
+
+#mypdf {
+	width: 85%;
+	height: 100px
+}
