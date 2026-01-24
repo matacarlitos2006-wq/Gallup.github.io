@@ -1530,10 +1530,11 @@ footer .insta {
 .mypdf {
 	width: 85%;
 	height: 750px;
+	justify-content: center;
 }
 
 
 .pdf h1 {
 	text-align: center;
-	font-size: 1.4rem;
+	font-size: 2.4rem;
 }
