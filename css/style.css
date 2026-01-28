@@ -1540,8 +1540,16 @@ footer .insta {
 	font-size: 2.4rem;
 }
 
-.copyright stu {
+.copyright stu h1 {
 	text-align: center;
 	font-size: 2.4rem
 	justify-content: center:
 }
+
+.copystud {
+	width: 85%
+	height: 750px;
+	justify-content: center;
+	text-align: center;
+}
+
