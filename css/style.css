@@ -80,7 +80,7 @@ h1, h2, h3, p {
     background-image: url("../images/Gallup-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 50% auto;
     background-attachment: fixed; 
     text-align: center;
     padding: 20rem 6rem;
