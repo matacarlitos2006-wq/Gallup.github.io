@@ -77,7 +77,7 @@ h1, h2, h3, p {
 }
 
 .home-page {
-    background-image: url("../images/Gallup-background.jpg");
+    background-image: url("../images/Gallup-logo.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -87,7 +87,6 @@ h1, h2, h3, p {
     border: 2px solid black;
     position: relative;
     z-index: 1;
-    animation: slideRight 20s infinite ease-in-out; 
 }
 
 .home-page h1 {
