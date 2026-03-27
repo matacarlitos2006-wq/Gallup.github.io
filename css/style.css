@@ -447,6 +447,69 @@ footer .insta {
   	margin-top: 70px; 
 }
 
+.sliding-at {
+  height: 50vh;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.slide-track-at {
+  display: flex;
+  width: calc(250px * 18);
+  animation: scroll 40s linear infinite;
+}
+
+.slide-track-at:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 9));
+  }
+}
+
+.slide-at {
+  height: 200px;
+  width: 250px;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  perspective: 100px;
+}
+
+.slide-at img {
+  width: 100%;
+  transition: transform 1s;
+}
+
+.slide-at img:hover {
+  transform: translateZ(20px);
+}
+
+.sliding-at::before
+.sliding-at::after {
+  background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+  content: '';
+  height: 100%;
+  position: absolute;
+  width: 15%;
+  z-index: 2;
+}
+
+.sliding-at::before {
+  left: 0;
+  top: 0;
+}
+
 .Contact_pl {
 	backdrop-filter: blur(5px);
 	background: rgba(0, 0, 0, 0.3);
