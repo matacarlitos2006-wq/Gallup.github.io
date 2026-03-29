@@ -1701,3 +1701,52 @@ footer .insta {
   line-height: 1.6;
   max-width: 700px; 
 }
+
+.Store-Features {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.departments-layout {
+	display: grid;
+	grid-template-columns: 200px 1fr; 
+	gap: 40px;
+	max-width: 1000px;
+	width: 100%;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 30px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.departments-layout h2 {
+	color: black;
+  	margin: 0;
+}
+
+
+.departments-container {
+  	display: grid;
+  	grid-template-columns: repeat(3, 1fr); 
+  	gap: 20px;
+}
+
+
+.departments {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.departments p {
+	color: #333;
+  	margin: 0;
+  	cursor: pointer;
+}
+
+
+.departments p:hover {
+  	text-decoration: underline;
+}
