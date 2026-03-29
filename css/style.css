@@ -132,6 +132,11 @@ h1, h2, h3, p {
     }
 }
 
+.spec {
+	text-align: center;
+	text-size: 1.5rem;
+}
+
 .home-page {
     background-image: url("../images/Gallup-logo.jpg");
     background-position: center;
