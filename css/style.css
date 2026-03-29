@@ -1675,6 +1675,13 @@ footer .insta {
 	text-align: center;
 }
 
+
+.article {
+	margin: 0; 
+  	padding: 80px;
+	text-align: left;
+}
+
 .article-image {
   width: 700px;      
   max-width: 100%;   
