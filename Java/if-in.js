@@ -84,7 +84,7 @@ function handleSearch() {
   }
 
 function toggleNav(){
-document.getElementById("sidebar").classList.toggle("active");
+document.getElementById("sidebar-ed").classList.toggle("active");
 }
 
 function toggleFolder(e,el){
