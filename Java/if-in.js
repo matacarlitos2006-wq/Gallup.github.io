@@ -83,14 +83,13 @@ function handleSearch() {
     alert(`No results found for "${query}".`);
   }
 
-  function toggleNav(){
+function toggleNav(){
 document.getElementById("sidebar").classList.toggle("active");
 }
 
 function toggleFolder(e,el){
 e.preventDefault();
 el.parentElement.classList.toggle("open");
-}
 }
 
 const cards = document.querySelectorAll('.card-home');
