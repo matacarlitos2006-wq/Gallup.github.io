@@ -108,3 +108,12 @@ cards.forEach(card => {
     card.style.transform = 'rotateX(0deg) rotateY(0deg)';
   });
 });
+
+function toggleNav(){
+document.getElementById("sidebar").classList.toggle("active");
+}
+
+function toggleFolder(e,el){
+e.preventDefault();
+el.parentElement.classList.toggle("open");
+}
