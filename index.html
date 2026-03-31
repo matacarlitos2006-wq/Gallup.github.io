@@ -26,6 +26,35 @@
   </div>
   
   <div id="searchResults"></div> 
+
+  <div class="nav-toggle" onclick="toggleNav()">
+  <span></span>
+  </div>
+
+  <div class="sidebar" id="sidebar">
+  <ul class="menu">
+  <li><a href="#">Home</a></li>
+
+  <li class="folder">
+  <a href="#" onclick="toggleFolder(event,this)">Pages</a>
+  <ul class="submenu">
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">Services</a></li>
+  </ul>
+  </li>
+
+  <li class="folder">
+  <a href="#" onclick="toggleFolder(event,this)">Projects</a>
+  <ul class="submenu">
+  <li><a href="#">Project 1</a></li>
+  <li><a href="#">Project 2</a></li>
+  </ul>
+  </li>
+
+  <li><a href="#">Blog</a></li>
+  </ul>
+  </div>
   
   <div id="home">
     <header class="home-page">
