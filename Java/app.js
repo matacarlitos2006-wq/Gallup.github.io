@@ -3,52 +3,52 @@ const searchData = [
   {
     title: "Events",
     keywords: ["event", "events", "celebration", "Trunk", "Treat", "Red Rock Balloon", "Indian Ceremonial"],
-    link: "./cat/Events.html"
+    link: "https://gallup-new-mexico.vercel.app/cat/Event.html"
   },
   {
     title: "History of Gallup",
     keywords: ["history", "gallup history", "Ancestral Puebloans", "Trading Posts", "Inter-Tribal Indian Ceremonial"],
-    link: "./cat/History.html"
+    link: "https://gallup-new-mexico.vercel.app/cat/History.html"
   },
   {
     title: "Public Library",
     keywords: ["library", "books", "Zollinger library", "Computer Lab", "Conference Room", "Study Rooms"],
-    link: "./Services/Library.html"
+    link: "https://gallup-new-mexico.vercel.app/Services/Library.html"
   },
   {
     title: "Educational Services",
     keywords: ["education", "school", "child care", "GMCS School", "High School", "Middle School", "Elementry School"],
-    link: "./Services/Education.html"
+    link: "https://gallup-new-mexico.vercel.app/Services/Education.html"
   },
   {
     title: "Transportation",
     keywords: ["transport", "bus", "travel", "airplane", "Gallup Express", "Navajo Transit", "GreyHound"],
-    link: "./Services/Transportation.html"
+    link: "https://gallup-new-mexico.vercel.app/Services/Transportation.html"
   },
   {
     title: "Contact Us",
     keywords: ["contact", "email", "phone", "address"],
-    link: "index.html"
+    link: "https://gallup-new-mexico.vercel.app/index.html"
   },
   {
     title: "About Us",
     keywords: ["about", "community"],
-    link: "index.html"
+    link: "https://gallup-new-mexico.vercel.app/index.html"
   },
   {
     title: "Home",
     keywords: ["home", "welcome"],
-    link: "index.html"
+    link: "https://gallup-new-mexico.vercel.app/index.html"
   },
   {
     title: "Reference",
     keywords: ["reference", "Reference", "Cite"],
-    link: "./Ref/Reference.html"
+    link: "https://gallup-new-mexico.vercel.app/Ref/Reference.html"
   },
   {
     title: "Get Help",
     keywords: ["get help", "Police", "Help", "Lines", "help", "Urgent"],
-    link: "./Services/Get-Help.html"
+    link: "https://gallup-new-mexico.vercel.app/Services/Get-Help.html"
   }
 ];
 
