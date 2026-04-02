@@ -49,6 +49,36 @@ const searchData = [
     title: "Get Help",
     keywords: ["get help", "Police", "Help", "Lines", "help", "Urgent"],
     link: "https://gallup-new-mexico.vercel.app/Services/Get-Help.html"
+  },
+  {
+    title: "Hotel",
+    keywords: ["Hotel", "Gallup Hotel", "Hotels"],
+    link: "https://gallup-new-mexico.vercel.app/home/Hotel.html"
+  },
+  {
+    title: "Resturants",
+    keywords: ["Resturants", "Dine in", "finest"],
+    link: "https://gallup-new-mexico.vercel.app/home/G-rest.html"
+  },
+  {
+    title: "Mall",
+    keywords: ["Rio West Mall", "Mall", "Food Court", "Stores"],
+    link: "https://gallup-new-mexico.vercel.app/home/Mall.html"
+  },
+  {
+    title: "Walmart",
+    keywords: ["Walmart", "Items", "Supercenter"],
+    link: "https://gallup-new-mexico.vercel.app/home/Walmart.html"
+  },
+  {
+    title: "Flea Market",
+    keywords: ["Flea Market", "FleaMarket", "Flea", "Market", "dirt"],
+    link: "https://gallup-new-mexico.vercel.app/home/flea.html"
+  },
+  {
+    title: "Gas Stations",
+    keywords: ["Gas", "Gas Stations", "Gas Station", "Shell", "Walmart Fuel"],
+    link: "https://gallup-new-mexico.vercel.app/home/gas.html"
   }
 ];
 
