@@ -159,3 +159,11 @@ const elements = document.querySelectorAll('.fade-in-right, .fade-up');
     });
 
 elements.forEach(el => observer.observe(el));
+
+window.addEventListener('wheel', function(e) {
+  e.preventDefault();
+  window.scrollBy({
+    top: e.deltaY * 2, 
+    behavior: 'auto'
+  });
+}, { passive: false });
