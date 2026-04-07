@@ -1901,11 +1901,12 @@ footer .insta {
 
 
 .image-crazy img {
-  width: 100%;
-  max-width: 600px;   
-  height: auto;       
-  object-fit: cover;
-  margin-bottom: 30px;
+	width: 100%;
+	max-width: 600px;   
+	height: auto;       
+	object-fit: cover;
+	margin-bottom: 30px;
+	transition-delay: 0.3s;
 }
 
 
@@ -1917,4 +1918,15 @@ footer .insta {
 .text-crazy p {
   font-size: 1.1rem;
   line-height: 1.6;
+}
+
+.fade-in-right {
+    opacity: 0;
+    transform: translateX(60px);
+    transition: all 0.8s ease-out;
+}
+
+.fade-in-right.show {
+    opacity: 1;
+    transform: translateX(0);
 }
