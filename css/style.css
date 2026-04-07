@@ -58,6 +58,30 @@ h1, h2, h3, p {
 	color: white;
 }
 
+.html {
+	overflow-y: scroll;
+  	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	
+  	width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  	background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #ff6600;
+	border-radius: 6px;
+	border: 3px solid #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  	background-color: #ff3300;
+}
+
 .nav-toggle{
 	position:fixed;
 	top:15px;
