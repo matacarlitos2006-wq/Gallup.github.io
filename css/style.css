@@ -74,11 +74,11 @@ h1, h2, h3, p {
 ::-webkit-scrollbar-thumb {
 	background-color: #5AA9E6;
 	border-radius: 6px;
-	border: 3px solid #F9C80E;
+	border: 3px solid #2081C3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  	background-color: #F9C80E;
+  	background-color: #2081C3;
 }
 
 .nav-toggle{
