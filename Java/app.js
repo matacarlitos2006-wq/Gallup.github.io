@@ -148,7 +148,7 @@ e.preventDefault();
 el.parentElement.classList.toggle("open");
 }
 
-const elements = document.querySelectorAll('.fade-in-right, .fade-up');
+const elements = document.querySelectorAll('.fade-in-right, .fade-up, .fade-left');
 
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(entry => {
