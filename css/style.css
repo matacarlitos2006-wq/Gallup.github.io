@@ -1923,7 +1923,7 @@ footer .insta {
 .fade-in-right {
     opacity: 0;
     transform: translateX(60px);
-    transition: all 0.8s ease-out;
+    transition: all 1.3s ease-out;
 }
 
 .fade-in-right.show {
@@ -1934,7 +1934,7 @@ footer .insta {
 .fade-up {
     opacity: 0;
     transform: translateY(60px); 
-    transition: all 0.8s ease-out;
+    transition: all 1.3s ease-out;
 }
 
 .fade-up.show {
