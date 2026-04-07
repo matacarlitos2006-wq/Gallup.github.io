@@ -1946,7 +1946,7 @@ footer .insta {
 .fade-in-right {
     opacity: 0;
     transform: translateX(80px);
-    transition: all 1.7s ease-out;
+    transition: all 2.0s ease-out;
 }
 
 .fade-in-right.show {
@@ -1957,7 +1957,7 @@ footer .insta {
 .fade-up {
     opacity: 0;
     transform: translateY(80px); 
-    transition: all 1.7s ease-out;
+    transition: all 2.0s ease-out;
 }
 
 .fade-up.show {
@@ -1968,7 +1968,7 @@ footer .insta {
 .fade-left {
   opacity: 0;
   transform: translateX(-80px); 
-  transition: all 1.7s ease-out;
+  transition: all 2.0s ease-out;
 }
 
 .fade-left.show {
