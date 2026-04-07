@@ -64,7 +64,7 @@ h1, h2, h3, p {
 }
 
 ::-webkit-scrollbar {
-  	width: 30px;
+  	width: 25px;
 }
 
 ::-webkit-scrollbar-track {
@@ -72,7 +72,7 @@ h1, h2, h3, p {
 }
 
 ::-webkit-scrollbar-thumb {
-	background-color: #ff6600;
+	background-color: #5AA9E6;
 	border-radius: 6px;
 	border: 3px solid #F9C80E;
 }
