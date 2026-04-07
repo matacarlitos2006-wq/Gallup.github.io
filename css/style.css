@@ -1853,3 +1853,41 @@ footer .insta {
 .departments p:hover {
   	text-decoration: underline;
 }
+
+
+.container-hotel {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 60px;
+	gap: 50px;
+}
+
+
+.text-hotel {
+	flex: 1;
+}
+
+.text-hotel h1 {
+	font-size: 2.5rem;
+	margin-bottom: 20px;
+}
+
+.text-hotel p {
+	font-size: 1.1rem;
+	line-height: 1.6;
+}
+
+/* Image side */
+.image-hotel {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+}
+
+.image-hotel img {
+	width: 100%;
+	max-width: 450px;   
+	height: auto;       
+	object-fit: cover;
+}
