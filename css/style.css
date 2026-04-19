@@ -59,7 +59,7 @@ h1, h2, h3, p {
 }
 
 p {
-	font-size: 30px;
+	font-size: 20px;
 }
 
 .html {
@@ -194,7 +194,6 @@ p {
     gap: 80px;
     padding: 150px;
     flex-wrap: wrap;
-
 	perspective: 1000px;
 }
 
@@ -208,7 +207,6 @@ p {
     text-align: center;
     padding-bottom: 20px;
 	transition-duration: 2s;
-
 	transition: transform 0.2s ease;
 	transform-style: preserve-3d;
 	will-change: transform;
@@ -229,7 +227,7 @@ p {
 
 .card-home p {
     padding: 0 20px;
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
 }
 
