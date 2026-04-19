@@ -168,30 +168,22 @@ window.addEventListener('wheel', function(e) {
   });
 }, { passive: false });
 
-Highcharts.chart('container-pie', {
-  chart: {
-    type: 'pie',
-    options3d: {
-      enabled: true,
-      alpha: 45
-    }
-  },
-  title: {
-    text: 'Population by Race'
-  },
-  plotOptions: {
-    pie: {
-      innerSize: 0,
-      depth: 45
-    }
-  },
+var chart = echarts.init(document.getElementById('chart'));
+
+chart.setOption({
+  backgroundColor: 'transparent',
   series: [{
-    name: 'Population',
+    type: 'pie',
+    radius: '60%',
     data: [
-      ['Native American', 10455],
-      ['White', 4305],
-      ['Hispanic', 4818],
-      ['Other', 923]
-    ]
+      { value: 10455, name: 'Native American' },
+      { value: 4305, name: 'White' },
+      { value: 4818, name: 'Hispanic' },
+      { value: 923, name: 'Other' }
+    ],
+    itemStyle: {
+      shadowBlur: 20,
+      shadowColor: 'rgba(0,0,0,0.5)'
+    }
   }]
 });
