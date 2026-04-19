@@ -58,6 +58,10 @@ h1, h2, h3, p {
 	color: white;
 }
 
+p {
+	text-size: 16px;
+}
+
 .html {
 	overflow-y: scroll;
   	scroll-behavior: smooth;
