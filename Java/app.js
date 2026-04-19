@@ -172,18 +172,41 @@ var chart = echarts.init(document.getElementById('chart'));
 
 chart.setOption({
   backgroundColor: 'transparent',
+
+  tooltip: {
+    trigger: 'item',
+    formatter: '{b}: {d}%'
+  },
+
   series: [{
     type: 'pie',
-    radius: '60%',
+    radius: '70%',
     data: [
       { value: 10455, name: 'Native American' },
       { value: 4305, name: 'White' },
       { value: 4818, name: 'Hispanic' },
       { value: 923, name: 'Other' }
     ],
+
+    label: {
+      formatter: '{b}: {d}%'
+    },
+
+    emphasis: {
+      focus: 'self',
+      itemStyle: {
+        shadowBlur: 30,
+        shadowOffsetX: 0,
+        shadowColor: 'rgba(0, 0, 0, 0.7)'
+      },
+      scale: true,
+      scaleSize: 10
+    },
+
     itemStyle: {
-      shadowBlur: 20,
-      shadowColor: 'rgba(0,0,0,0.5)'
+      borderRadius: 8,
+      borderColor: '#fff',
+      borderWidth: 2
     }
   }]
 });
