@@ -167,3 +167,31 @@ window.addEventListener('wheel', function(e) {
     behavior: 'auto'
   });
 }, { passive: false });
+
+Highcharts.chart('container-pie', {
+  chart: {
+    type: 'pie',
+    options3d: {
+      enabled: true,
+      alpha: 45
+    }
+  },
+  title: {
+    text: 'Population by Race'
+  },
+  plotOptions: {
+    pie: {
+      innerSize: 0,
+      depth: 45
+    }
+  },
+  series: [{
+    name: 'Population',
+    data: [
+      ['Native American', 10455],
+      ['White', 4305],
+      ['Hispanic', 4818],
+      ['Other', 923]
+    ]
+  }]
+});
